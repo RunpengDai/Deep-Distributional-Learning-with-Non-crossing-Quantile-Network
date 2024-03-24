@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -n 6
+#SBATCH -t 11-00:00:00
+#SBATCH -p htzhulab
+#SBATCH --mem 80g
+#SBATCH --qos gpu_access
+#SBATCH --gres=gpu:1
+#SBATCH -o out/GPU2.out
+
+module rm python
+module load cuda/11.8
+module load anaconda
+conda activate base
+conda activate distRL
+                   
+bash GPU2.sh

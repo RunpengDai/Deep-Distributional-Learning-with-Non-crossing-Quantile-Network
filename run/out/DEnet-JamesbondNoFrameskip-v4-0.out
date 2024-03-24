@@ -1,0 +1,1385 @@
+Namespace(config='config/qrdqn.yaml', cuda=True, env_id='JamesbondNoFrameskip-v4', model='DEnet', seed=0)
+Mean_return:0.1 Frame:0.03 M  Time_used 0H-0M Time_togo 63H-25M
+Mean_return:0.08 Frame:0.06 M  Time_used 0H-1M Time_togo 94H-36M
+Mean_return:0.12 Frame:0.10 M  Time_used 0H-2M Time_togo 98H-13M
+Mean_return:0.1 Frame:0.13 M  Time_used 0H-3M Time_togo 100H-1M
+Mean_return:0.06 Frame:0.16 M  Time_used 0H-4M Time_togo 101H-54M
+Mean_return:0.18 Frame:0.19 M  Time_used 0H-5M Time_togo 103H-14M
+Mean_return:0.08 Frame:0.22 M  Time_used 0H-6M Time_togo 102H-21M
+Mean_return:0.12 Frame:0.26 M  Time_used 0H-7M Time_togo 102H-33M
+Mean_return:0.08 Frame:0.29 M  Time_used 0H-8M Time_togo 103H-18M
+Mean_return:0.16 Frame:0.32 M  Time_used 0H-10M Time_togo 105H-16M
+Mean_return:0.11 Frame:0.35 M  Time_used 0H-11M Time_togo 106H-19M
+Mean_return:0.12 Frame:0.39 M  Time_used 0H-12M Time_togo 108H-2M
+Mean_return:0.11 Frame:0.42 M  Time_used 0H-13M Time_togo 108H-31M
+Mean_return:0.09 Frame:0.45 M  Time_used 0H-14M Time_togo 108H-56M
+Mean_return:0.11 Frame:0.49 M  Time_used 0H-16M Time_togo 110H-13M
+Mean_return:0.15 Frame:0.52 M  Time_used 0H-17M Time_togo 111H-14M
+Mean_return:0.09 Frame:0.55 M  Time_used 0H-18M Time_togo 112H-45M
+Mean_return:0.12 Frame:0.59 M  Time_used 0H-20M Time_togo 113H-36M
+Mean_return:0.2 Frame:0.62 M  Time_used 0H-21M Time_togo 112H-59M
+Mean_return:0.12 Frame:0.66 M  Time_used 0H-22M Time_togo 112H-1M
+Mean_return:0.22 Frame:0.70 M  Time_used 0H-23M Time_togo 112H-45M
+Mean_return:0.2 Frame:0.74 M  Time_used 0H-24M Time_togo 112H-30M
+Mean_return:0.2 Frame:0.77 M  Time_used 0H-26M Time_togo 112H-27M
+Mean_return:0.11 Frame:0.81 M  Time_used 0H-27M Time_togo 112H-40M
+Mean_return:0.21 Frame:0.85 M  Time_used 0H-29M Time_togo 113H-27M
+Mean_return:0.1 Frame:0.89 M  Time_used 0H-31M Time_togo 116H-19M
+Mean_return:0.17 Frame:0.93 M  Time_used 0H-33M Time_togo 118H-31M
+Mean_return:0.08 Frame:0.97 M  Time_used 0H-35M Time_togo 120H-30M
+------------------------------------------------------------
+Num steps: 250000  return: 31.8 
+------------------------------------------------------------
+Mean_return:0.14 Frame:1.01 M  Time_used 0H-48M Time_togo 158H-9M
+Mean_return:0.1 Frame:1.05 M  Time_used 0H-50M Time_togo 159H-48M
+Mean_return:0.09 Frame:1.09 M  Time_used 0H-52M Time_togo 159H-43M
+Mean_return:0.09 Frame:1.12 M  Time_used 0H-54M Time_togo 159H-45M
+Mean_return:0.08 Frame:1.16 M  Time_used 0H-55M Time_togo 159H-11M
+Mean_return:0.12 Frame:1.20 M  Time_used 0H-57M Time_togo 158H-16M
+Mean_return:0.18 Frame:1.24 M  Time_used 0H-58M Time_togo 157H-9M
+Mean_return:0.14 Frame:1.28 M  Time_used 1H-0M Time_togo 155H-30M
+Mean_return:0.14 Frame:1.32 M  Time_used 1H-1M Time_togo 155H-8M
+Mean_return:0.11 Frame:1.36 M  Time_used 1H-3M Time_togo 155H-5M
+Mean_return:0.11 Frame:1.40 M  Time_used 1H-5M Time_togo 155H-39M
+Mean_return:0.11 Frame:1.43 M  Time_used 1H-7M Time_togo 156H-18M
+Mean_return:0.13 Frame:1.47 M  Time_used 1H-9M Time_togo 157H-35M
+Mean_return:0.18 Frame:1.50 M  Time_used 1H-11M Time_togo 157H-49M
+Mean_return:0.15 Frame:1.54 M  Time_used 1H-13M Time_togo 157H-59M
+Mean_return:0.21 Frame:1.58 M  Time_used 1H-15M Time_togo 158H-0M
+Mean_return:0.28 Frame:1.63 M  Time_used 1H-17M Time_togo 158H-2M
+Mean_return:0.14 Frame:1.67 M  Time_used 1H-19M Time_togo 158H-5M
+Mean_return:0.1 Frame:1.71 M  Time_used 1H-22M Time_togo 158H-13M
+Mean_return:0.09 Frame:1.75 M  Time_used 1H-23M Time_togo 158H-15M
+Mean_return:0.15 Frame:1.80 M  Time_used 1H-26M Time_togo 158H-47M
+Mean_return:0.17 Frame:1.85 M  Time_used 1H-28M Time_togo 158H-34M
+Mean_return:0.18 Frame:1.89 M  Time_used 1H-30M Time_togo 158H-22M
+Mean_return:0.08 Frame:1.93 M  Time_used 1H-32M Time_togo 157H-56M
+Mean_return:0.19 Frame:1.97 M  Time_used 1H-34M Time_togo 157H-15M
+------------------------------------------------------------
+Num steps: 500000  return: 41.5 
+------------------------------------------------------------
+Mean_return:0.19 Frame:2.02 M  Time_used 1H-46M Time_togo 173H-25M
+Mean_return:0.16 Frame:2.06 M  Time_used 1H-48M Time_togo 173H-37M
+Mean_return:0.15 Frame:2.12 M  Time_used 1H-50M Time_togo 172H-47M
+Mean_return:0.13 Frame:2.16 M  Time_used 1H-52M Time_togo 171H-35M
+Mean_return:0.12 Frame:2.21 M  Time_used 1H-54M Time_togo 171H-30M
+Mean_return:0.18 Frame:2.26 M  Time_used 1H-57M Time_togo 171H-14M
+Mean_return:0.17 Frame:2.31 M  Time_used 1H-59M Time_togo 171H-8M
+Mean_return:0.1 Frame:2.34 M  Time_used 2H-1M Time_togo 171H-4M
+Mean_return:0.15 Frame:2.39 M  Time_used 2H-3M Time_togo 170H-50M
+Mean_return:0.12 Frame:2.43 M  Time_used 2H-5M Time_togo 170H-28M
+Mean_return:0.19 Frame:2.48 M  Time_used 2H-7M Time_togo 169H-42M
+Mean_return:0.24 Frame:2.52 M  Time_used 2H-9M Time_togo 169H-11M
+Mean_return:0.18 Frame:2.57 M  Time_used 2H-11M Time_togo 168H-44M
+Mean_return:0.22 Frame:2.62 M  Time_used 2H-13M Time_togo 168H-11M
+Mean_return:0.12 Frame:2.66 M  Time_used 2H-15M Time_togo 167H-41M
+Mean_return:0.25 Frame:2.72 M  Time_used 2H-17M Time_togo 166H-52M
+Mean_return:0.16 Frame:2.77 M  Time_used 2H-20M Time_togo 166H-16M
+Mean_return:0.24 Frame:2.83 M  Time_used 2H-22M Time_togo 165H-32M
+Mean_return:0.21 Frame:2.88 M  Time_used 2H-24M Time_togo 165H-4M
+Mean_return:0.12 Frame:2.92 M  Time_used 2H-26M Time_togo 164H-42M
+Mean_return:0.18 Frame:2.97 M  Time_used 2H-28M Time_togo 164H-18M
+------------------------------------------------------------
+Num steps: 750000  return: 110.5
+------------------------------------------------------------
+Mean_return:0.24 Frame:3.02 M  Time_used 2H-39M Time_togo 173H-38M
+Mean_return:0.16 Frame:3.07 M  Time_used 2H-41M Time_togo 172H-46M
+Mean_return:0.08 Frame:3.11 M  Time_used 2H-43M Time_togo 172H-13M
+Mean_return:0.13 Frame:3.15 M  Time_used 2H-45M Time_togo 171H-59M
+Mean_return:0.24 Frame:3.20 M  Time_used 2H-47M Time_togo 171H-18M
+Mean_return:0.2 Frame:3.25 M  Time_used 2H-49M Time_togo 170H-51M
+Mean_return:0.25 Frame:3.29 M  Time_used 2H-51M Time_togo 170H-20M
+Mean_return:0.33 Frame:3.35 M  Time_used 2H-53M Time_togo 169H-45M
+Mean_return:0.33 Frame:3.40 M  Time_used 2H-55M Time_togo 168H-50M
+Mean_return:0.19 Frame:3.45 M  Time_used 2H-56M Time_togo 168H-3M
+Mean_return:0.18 Frame:3.49 M  Time_used 2H-58M Time_togo 167H-23M
+Mean_return:0.2 Frame:3.54 M  Time_used 3H-0M Time_togo 166H-38M
+Mean_return:0.15 Frame:3.58 M  Time_used 3H-1M Time_togo 165H-58M
+Mean_return:0.11 Frame:3.63 M  Time_used 3H-3M Time_togo 165H-10M
+Mean_return:0.12 Frame:3.68 M  Time_used 3H-4M Time_togo 164H-26M
+Mean_return:0.14 Frame:3.72 M  Time_used 3H-6M Time_togo 163H-55M
+Mean_return:0.18 Frame:3.76 M  Time_used 3H-8M Time_togo 163H-34M
+Mean_return:0.24 Frame:3.81 M  Time_used 3H-10M Time_togo 163H-14M
+Mean_return:0.16 Frame:3.86 M  Time_used 3H-12M Time_togo 162H-55M
+Mean_return:0.09 Frame:3.91 M  Time_used 3H-14M Time_togo 162H-40M
+Mean_return:0.17 Frame:3.95 M  Time_used 3H-16M Time_togo 162H-37M
+Mean_return:0.17 Frame:4.00 M  Time_used 3H-18M Time_togo 162H-28M
+------------------------------------------------------------
+Num steps: 1000000  return: 17.5 
+------------------------------------------------------------
+Mean_return:0.12 Frame:4.04 M  Time_used 3H-30M Time_togo 170H-18M
+Mean_return:0.16 Frame:4.10 M  Time_used 3H-34M Time_togo 170H-48M
+Mean_return:0.18 Frame:4.15 M  Time_used 3H-37M Time_togo 171H-21M
+Mean_return:0.13 Frame:4.19 M  Time_used 3H-40M Time_togo 171H-51M
+Mean_return:0.17 Frame:4.24 M  Time_used 3H-43M Time_togo 172H-17M
+Mean_return:0.21 Frame:4.29 M  Time_used 3H-47M Time_togo 172H-49M
+Mean_return:0.1 Frame:4.33 M  Time_used 3H-50M Time_togo 173H-14M
+Mean_return:0.1 Frame:4.38 M  Time_used 3H-53M Time_togo 173H-26M
+Mean_return:0.13 Frame:4.43 M  Time_used 3H-56M Time_togo 173H-49M
+Mean_return:0.12 Frame:4.47 M  Time_used 3H-58M Time_togo 174H-7M
+Mean_return:0.16 Frame:4.52 M  Time_used 4H-2M Time_togo 174H-30M
+Mean_return:0.24 Frame:4.58 M  Time_used 4H-5M Time_togo 174H-45M
+Mean_return:0.15 Frame:4.63 M  Time_used 4H-9M Time_togo 175H-5M
+Mean_return:0.18 Frame:4.69 M  Time_used 4H-12M Time_togo 175H-33M
+Mean_return:0.23 Frame:4.74 M  Time_used 4H-16M Time_togo 175H-58M
+Mean_return:0.16 Frame:4.79 M  Time_used 4H-19M Time_togo 176H-30M
+Mean_return:0.26 Frame:4.85 M  Time_used 4H-22M Time_togo 176H-10M
+Mean_return:0.2 Frame:4.91 M  Time_used 4H-25M Time_togo 175H-51M
+Mean_return:0.15 Frame:4.95 M  Time_used 4H-28M Time_togo 175H-59M
+------------------------------------------------------------
+Num steps: 1250000  return: 44.3 
+------------------------------------------------------------
+Mean_return:0.12 Frame:5.00 M  Time_used 4H-40M Time_togo 182H-5M
+Mean_return:0.26 Frame:5.05 M  Time_used 4H-43M Time_togo 182H-10M
+Mean_return:0.16 Frame:5.11 M  Time_used 4H-47M Time_togo 182H-25M
+Mean_return:0.18 Frame:5.17 M  Time_used 4H-50M Time_togo 182H-29M
+Mean_return:0.17 Frame:5.22 M  Time_used 4H-53M Time_togo 182H-31M
+Mean_return:0.21 Frame:5.28 M  Time_used 4H-57M Time_togo 182H-37M
+Mean_return:0.19 Frame:5.34 M  Time_used 5H-0M Time_togo 182H-40M
+Mean_return:0.21 Frame:5.40 M  Time_used 5H-4M Time_togo 182H-56M
+Mean_return:0.22 Frame:5.45 M  Time_used 5H-7M Time_togo 182H-58M
+Mean_return:0.17 Frame:5.50 M  Time_used 5H-10M Time_togo 183H-11M
+Mean_return:0.16 Frame:5.56 M  Time_used 5H-14M Time_togo 183H-19M
+Mean_return:0.16 Frame:5.62 M  Time_used 5H-18M Time_togo 183H-26M
+Mean_return:0.27 Frame:5.68 M  Time_used 5H-22M Time_togo 183H-42M
+Mean_return:0.22 Frame:5.76 M  Time_used 5H-26M Time_togo 183H-45M
+Mean_return:0.18 Frame:5.82 M  Time_used 5H-30M Time_togo 184H-4M
+Mean_return:0.23 Frame:5.89 M  Time_used 5H-35M Time_togo 184H-24M
+Mean_return:0.18 Frame:5.94 M  Time_used 5H-39M Time_togo 184H-45M
+------------------------------------------------------------
+Num steps: 1500000  return: 91.9 
+------------------------------------------------------------
+Mean_return:0.39 Frame:6.01 M  Time_used 5H-52M Time_togo 189H-44M
+Mean_return:0.2 Frame:6.08 M  Time_used 5H-56M Time_togo 189H-46M
+Mean_return:0.25 Frame:6.14 M  Time_used 6H-0M Time_togo 189H-19M
+Mean_return:0.35 Frame:6.23 M  Time_used 6H-4M Time_togo 188H-53M
+Mean_return:0.22 Frame:6.30 M  Time_used 6H-7M Time_togo 188H-32M
+Mean_return:0.29 Frame:6.38 M  Time_used 6H-12M Time_togo 188H-35M
+Mean_return:0.38 Frame:6.46 M  Time_used 6H-17M Time_togo 188H-42M
+Mean_return:0.31 Frame:6.54 M  Time_used 6H-22M Time_togo 188H-46M
+Mean_return:0.34 Frame:6.62 M  Time_used 6H-27M Time_togo 188H-42M
+Mean_return:0.41 Frame:6.71 M  Time_used 6H-32M Time_togo 188H-44M
+Mean_return:0.28 Frame:6.78 M  Time_used 6H-37M Time_togo 188H-45M
+Mean_return:0.19 Frame:6.86 M  Time_used 6H-42M Time_togo 188H-53M
+Mean_return:0.27 Frame:6.94 M  Time_used 6H-47M Time_togo 189H-2M
+------------------------------------------------------------
+Num steps: 1750000  return: 67.5 
+------------------------------------------------------------
+Mean_return:0.26 Frame:7.03 M  Time_used 7H-2M Time_togo 193H-3M
+Mean_return:0.26 Frame:7.12 M  Time_used 7H-6M Time_togo 192H-43M
+Mean_return:0.36 Frame:7.21 M  Time_used 7H-11M Time_togo 192H-21M
+Mean_return:0.45 Frame:7.30 M  Time_used 7H-16M Time_togo 192H-4M
+Mean_return:0.3 Frame:7.39 M  Time_used 7H-21M Time_togo 191H-58M
+Mean_return:0.4 Frame:7.47 M  Time_used 7H-27M Time_togo 191H-59M
+Mean_return:0.4 Frame:7.56 M  Time_used 7H-31M Time_togo 191H-34M
+Mean_return:0.28 Frame:7.64 M  Time_used 7H-35M Time_togo 191H-7M
+Mean_return:0.23 Frame:7.72 M  Time_used 7H-39M Time_togo 190H-38M
+Mean_return:0.26 Frame:7.80 M  Time_used 7H-43M Time_togo 190H-14M
+Mean_return:0.29 Frame:7.89 M  Time_used 7H-47M Time_togo 189H-53M
+Mean_return:0.34 Frame:7.97 M  Time_used 7H-51M Time_togo 189H-29M
+------------------------------------------------------------
+Num steps: 2000000  return: 75.5 
+------------------------------------------------------------
+Mean_return:0.21 Frame:8.05 M  Time_used 8H-4M Time_togo 192H-37M
+Mean_return:0.3 Frame:8.13 M  Time_used 8H-8M Time_togo 192H-12M
+Mean_return:0.41 Frame:8.20 M  Time_used 8H-12M Time_togo 191H-50M
+Mean_return:0.36 Frame:8.29 M  Time_used 8H-16M Time_togo 191H-22M
+Mean_return:0.47 Frame:8.39 M  Time_used 8H-21M Time_togo 190H-59M
+Mean_return:0.54 Frame:8.49 M  Time_used 8H-26M Time_togo 190H-28M
+Mean_return:0.62 Frame:8.58 M  Time_used 8H-31M Time_togo 189H-56M
+Mean_return:0.72 Frame:8.68 M  Time_used 8H-35M Time_togo 189H-25M
+Mean_return:0.67 Frame:8.78 M  Time_used 8H-40M Time_togo 188H-57M
+Mean_return:0.77 Frame:8.88 M  Time_used 8H-45M Time_togo 188H-33M
+Mean_return:0.59 Frame:8.98 M  Time_used 8H-50M Time_togo 188H-8M
+------------------------------------------------------------
+Num steps: 2250000  return: 257.4
+------------------------------------------------------------
+Mean_return:0.75 Frame:9.08 M  Time_used 9H-4M Time_togo 190H-50M
+Mean_return:0.58 Frame:9.18 M  Time_used 9H-9M Time_togo 190H-22M
+Mean_return:0.7 Frame:9.29 M  Time_used 9H-14M Time_togo 189H-55M
+Mean_return:0.57 Frame:9.38 M  Time_used 9H-19M Time_togo 189H-32M
+Mean_return:0.59 Frame:9.49 M  Time_used 9H-25M Time_togo 189H-7M
+Mean_return:0.47 Frame:9.59 M  Time_used 9H-30M Time_togo 188H-46M
+Mean_return:0.9 Frame:9.69 M  Time_used 9H-35M Time_togo 188H-18M
+Mean_return:0.65 Frame:9.78 M  Time_used 9H-40M Time_togo 187H-59M
+Mean_return:0.92 Frame:9.88 M  Time_used 9H-44M Time_togo 187H-38M
+Mean_return:0.87 Frame:9.98 M  Time_used 9H-49M Time_togo 187H-11M
+------------------------------------------------------------
+Num steps: 2500000  return: 223.0
+------------------------------------------------------------
+Mean_return:1.06 Frame:10.09 M  Time_used 10H-4M Time_togo 189H-37M
+Mean_return:0.91 Frame:10.19 M  Time_used 10H-9M Time_togo 189H-9M
+Mean_return:0.91 Frame:10.29 M  Time_used 10H-14M Time_togo 188H-46M
+Mean_return:0.94 Frame:10.40 M  Time_used 10H-19M Time_togo 188H-24M
+Mean_return:1.07 Frame:10.50 M  Time_used 10H-25M Time_togo 188H-3M
+Mean_return:1.23 Frame:10.61 M  Time_used 10H-30M Time_togo 187H-41M
+Mean_return:1.3 Frame:10.72 M  Time_used 10H-36M Time_togo 187H-18M
+Mean_return:1.27 Frame:10.82 M  Time_used 10H-41M Time_togo 186H-51M
+Mean_return:1.29 Frame:10.93 M  Time_used 10H-46M Time_togo 186H-25M
+------------------------------------------------------------
+Num steps: 2750000  return: 340.1
+------------------------------------------------------------
+Mean_return:1.06 Frame:11.03 M  Time_used 11H-0M Time_togo 188H-36M
+Mean_return:1.09 Frame:11.13 M  Time_used 11H-5M Time_togo 188H-14M
+Mean_return:1.3 Frame:11.24 M  Time_used 11H-11M Time_togo 187H-52M
+Mean_return:1.09 Frame:11.35 M  Time_used 11H-16M Time_togo 187H-28M
+Mean_return:1.25 Frame:11.46 M  Time_used 11H-22M Time_togo 187H-7M
+Mean_return:1.42 Frame:11.57 M  Time_used 11H-27M Time_togo 186H-42M
+Mean_return:1.1 Frame:11.68 M  Time_used 11H-33M Time_togo 186H-18M
+Mean_return:1.19 Frame:11.77 M  Time_used 11H-38M Time_togo 186H-0M
+Mean_return:1.05 Frame:11.88 M  Time_used 11H-43M Time_togo 185H-41M
+Mean_return:1.03 Frame:11.97 M  Time_used 11H-48M Time_togo 185H-29M
+------------------------------------------------------------
+Num steps: 3000000  return: 211.6
+------------------------------------------------------------
+Mean_return:1.2 Frame:12.08 M  Time_used 12H-2M Time_togo 187H-27M
+Mean_return:1.4 Frame:12.18 M  Time_used 12H-7M Time_togo 187H-3M
+Mean_return:1.42 Frame:12.28 M  Time_used 12H-13M Time_togo 186H-43M
+Mean_return:1.16 Frame:12.39 M  Time_used 12H-18M Time_togo 186H-26M
+Mean_return:1.3 Frame:12.50 M  Time_used 12H-24M Time_togo 186H-6M
+Mean_return:1.45 Frame:12.60 M  Time_used 12H-29M Time_togo 185H-46M
+Mean_return:1.53 Frame:12.70 M  Time_used 12H-34M Time_togo 185H-24M
+Mean_return:1.39 Frame:12.80 M  Time_used 12H-39M Time_togo 185H-3M
+Mean_return:1.55 Frame:12.91 M  Time_used 12H-44M Time_togo 184H-39M
+------------------------------------------------------------
+Num steps: 3250000  return: 628.6
+------------------------------------------------------------
+Mean_return:1.41 Frame:13.01 M  Time_used 12H-58M Time_togo 186H-25M
+Mean_return:1.42 Frame:13.11 M  Time_used 13H-3M Time_togo 186H-2M
+Mean_return:1.55 Frame:13.22 M  Time_used 13H-8M Time_togo 185H-42M
+Mean_return:1.59 Frame:13.32 M  Time_used 13H-13M Time_togo 185H-22M
+Mean_return:1.36 Frame:13.42 M  Time_used 13H-18M Time_togo 184H-59M
+Mean_return:1.44 Frame:13.53 M  Time_used 13H-23M Time_togo 184H-34M
+Mean_return:1.53 Frame:13.64 M  Time_used 13H-28M Time_togo 184H-10M
+Mean_return:1.76 Frame:13.75 M  Time_used 13H-33M Time_togo 183H-44M
+Mean_return:1.6 Frame:13.86 M  Time_used 13H-38M Time_togo 183H-20M
+Mean_return:1.52 Frame:13.97 M  Time_used 13H-43M Time_togo 182H-55M
+------------------------------------------------------------
+Num steps: 3500000  return: 440.0
+------------------------------------------------------------
+Mean_return:1.64 Frame:14.07 M  Time_used 13H-58M Time_togo 184H-34M
+Mean_return:1.71 Frame:14.18 M  Time_used 14H-3M Time_togo 184H-18M
+Mean_return:1.59 Frame:14.28 M  Time_used 14H-8M Time_togo 184H-0M
+Mean_return:1.52 Frame:14.39 M  Time_used 14H-14M Time_togo 183H-41M
+Mean_return:1.66 Frame:14.50 M  Time_used 14H-19M Time_togo 183H-19M
+Mean_return:1.54 Frame:14.60 M  Time_used 14H-24M Time_togo 182H-59M
+Mean_return:1.56 Frame:14.70 M  Time_used 14H-29M Time_togo 182H-43M
+Mean_return:1.56 Frame:14.81 M  Time_used 14H-35M Time_togo 182H-24M
+Mean_return:1.6 Frame:14.92 M  Time_used 14H-40M Time_togo 182H-5M
+------------------------------------------------------------
+Num steps: 3750000  return: 479.1
+------------------------------------------------------------
+Mean_return:1.52 Frame:15.02 M  Time_used 14H-55M Time_togo 183H-40M
+Mean_return:1.55 Frame:15.13 M  Time_used 15H-0M Time_togo 183H-17M
+Mean_return:1.62 Frame:15.23 M  Time_used 15H-5M Time_togo 182H-59M
+Mean_return:1.62 Frame:15.35 M  Time_used 15H-10M Time_togo 182H-39M
+Mean_return:1.26 Frame:15.45 M  Time_used 15H-15M Time_togo 182H-20M
+Mean_return:1.65 Frame:15.56 M  Time_used 15H-21M Time_togo 181H-59M
+Mean_return:1.5 Frame:15.67 M  Time_used 15H-26M Time_togo 181H-37M
+Mean_return:1.59 Frame:15.77 M  Time_used 15H-31M Time_togo 181H-17M
+Mean_return:1.49 Frame:15.88 M  Time_used 15H-36M Time_togo 181H-1M
+Mean_return:1.51 Frame:15.98 M  Time_used 15H-42M Time_togo 180H-49M
+------------------------------------------------------------
+Num steps: 4000000  return: 572.9
+------------------------------------------------------------
+Mean_return:1.63 Frame:16.10 M  Time_used 15H-57M Time_togo 182H-16M
+Mean_return:1.59 Frame:16.19 M  Time_used 16H-2M Time_togo 182H-1M
+Mean_return:1.68 Frame:16.30 M  Time_used 16H-7M Time_togo 181H-46M
+Mean_return:1.62 Frame:16.41 M  Time_used 16H-13M Time_togo 181H-33M
+Mean_return:1.54 Frame:16.52 M  Time_used 16H-19M Time_togo 181H-19M
+Mean_return:1.46 Frame:16.63 M  Time_used 16H-25M Time_togo 181H-4M
+Mean_return:1.59 Frame:16.73 M  Time_used 16H-30M Time_togo 180H-51M
+Mean_return:1.75 Frame:16.84 M  Time_used 16H-36M Time_togo 180H-34M
+Mean_return:1.75 Frame:16.95 M  Time_used 16H-41M Time_togo 180H-20M
+------------------------------------------------------------
+Num steps: 4250000  return: 432.9
+------------------------------------------------------------
+Mean_return:1.82 Frame:17.07 M  Time_used 16H-56M Time_togo 181H-38M
+Mean_return:1.49 Frame:17.17 M  Time_used 17H-2M Time_togo 181H-26M
+Mean_return:1.61 Frame:17.27 M  Time_used 17H-7M Time_togo 181H-13M
+Mean_return:1.6 Frame:17.38 M  Time_used 17H-13M Time_togo 181H-1M
+Mean_return:1.6 Frame:17.48 M  Time_used 17H-19M Time_togo 180H-48M
+Mean_return:1.49 Frame:17.59 M  Time_used 17H-24M Time_togo 180H-37M
+Mean_return:1.57 Frame:17.69 M  Time_used 17H-30M Time_togo 180H-23M
+Mean_return:1.5 Frame:17.79 M  Time_used 17H-35M Time_togo 180H-9M
+Mean_return:1.76 Frame:17.90 M  Time_used 17H-41M Time_togo 179H-54M
+------------------------------------------------------------
+Num steps: 4500000  return: 498.8
+------------------------------------------------------------
+Mean_return:1.77 Frame:18.02 M  Time_used 17H-56M Time_togo 181H-12M
+Mean_return:1.52 Frame:18.12 M  Time_used 18H-2M Time_togo 181H-0M
+Mean_return:1.48 Frame:18.23 M  Time_used 18H-7M Time_togo 180H-46M
+Mean_return:1.5 Frame:18.34 M  Time_used 18H-13M Time_togo 180H-31M
+Mean_return:1.47 Frame:18.44 M  Time_used 18H-18M Time_togo 180H-14M
+Mean_return:1.56 Frame:18.55 M  Time_used 18H-23M Time_togo 179H-59M
+Mean_return:1.85 Frame:18.67 M  Time_used 18H-30M Time_togo 179H-45M
+Mean_return:1.59 Frame:18.77 M  Time_used 18H-35M Time_togo 179H-29M
+Mean_return:1.47 Frame:18.88 M  Time_used 18H-41M Time_togo 179H-18M
+Mean_return:1.72 Frame:18.99 M  Time_used 18H-47M Time_togo 179H-6M
+------------------------------------------------------------
+Num steps: 4750000  return: 460.2
+------------------------------------------------------------
+Mean_return:1.71 Frame:19.10 M  Time_used 19H-2M Time_togo 180H-19M
+Mean_return:1.7 Frame:19.21 M  Time_used 19H-8M Time_togo 180H-4M
+Mean_return:1.61 Frame:19.32 M  Time_used 19H-13M Time_togo 179H-48M
+Mean_return:1.67 Frame:19.44 M  Time_used 19H-19M Time_togo 179H-34M
+Mean_return:1.97 Frame:19.56 M  Time_used 19H-26M Time_togo 179H-20M
+Mean_return:1.73 Frame:19.67 M  Time_used 19H-32M Time_togo 179H-5M
+Mean_return:1.74 Frame:19.79 M  Time_used 19H-38M Time_togo 178H-52M
+Mean_return:1.5 Frame:19.90 M  Time_used 19H-44M Time_togo 178H-38M
+------------------------------------------------------------
+Num steps: 5000000  return: 511.0
+------------------------------------------------------------
+Mean_return:1.71 Frame:20.01 M  Time_used 19H-59M Time_togo 179H-46M
+Mean_return:1.75 Frame:20.13 M  Time_used 20H-4M Time_togo 179H-29M
+Mean_return:1.71 Frame:20.24 M  Time_used 20H-10M Time_togo 179H-13M
+Mean_return:1.55 Frame:20.34 M  Time_used 20H-16M Time_togo 179H-0M
+Mean_return:1.69 Frame:20.46 M  Time_used 20H-22M Time_togo 178H-46M
+Mean_return:1.75 Frame:20.57 M  Time_used 20H-27M Time_togo 178H-30M
+Mean_return:1.81 Frame:20.69 M  Time_used 20H-33M Time_togo 178H-16M
+Mean_return:1.58 Frame:20.80 M  Time_used 20H-39M Time_togo 178H-2M
+Mean_return:1.67 Frame:20.91 M  Time_used 20H-46M Time_togo 177H-52M
+------------------------------------------------------------
+Num steps: 5250000  return: 561.4
+------------------------------------------------------------
+Mean_return:1.56 Frame:21.02 M  Time_used 21H-0M Time_togo 178H-55M
+Mean_return:1.61 Frame:21.13 M  Time_used 21H-6M Time_togo 178H-43M
+Mean_return:1.78 Frame:21.25 M  Time_used 21H-13M Time_togo 178H-27M
+Mean_return:1.3 Frame:21.35 M  Time_used 21H-18M Time_togo 178H-15M
+Mean_return:1.72 Frame:21.47 M  Time_used 21H-23M Time_togo 177H-58M
+Mean_return:1.64 Frame:21.58 M  Time_used 21H-29M Time_togo 177H-45M
+Mean_return:1.49 Frame:21.69 M  Time_used 21H-35M Time_togo 177H-31M
+Mean_return:1.63 Frame:21.80 M  Time_used 21H-41M Time_togo 177H-17M
+Mean_return:1.74 Frame:21.91 M  Time_used 21H-46M Time_togo 177H-4M
+------------------------------------------------------------
+Num steps: 5500000  return: 407.3
+------------------------------------------------------------
+Mean_return:1.51 Frame:22.01 M  Time_used 22H-1M Time_togo 178H-3M
+Mean_return:1.59 Frame:22.13 M  Time_used 22H-7M Time_togo 177H-48M
+Mean_return:1.76 Frame:22.24 M  Time_used 22H-13M Time_togo 177H-32M
+Mean_return:1.47 Frame:22.35 M  Time_used 22H-18M Time_togo 177H-20M
+Mean_return:1.79 Frame:22.46 M  Time_used 22H-24M Time_togo 177H-6M
+Mean_return:1.45 Frame:22.57 M  Time_used 22H-29M Time_togo 176H-53M
+Mean_return:1.5 Frame:22.68 M  Time_used 22H-35M Time_togo 176H-39M
+Mean_return:1.6 Frame:22.78 M  Time_used 22H-40M Time_togo 176H-25M
+Mean_return:1.66 Frame:22.89 M  Time_used 22H-46M Time_togo 176H-12M
+Mean_return:1.43 Frame:23.00 M  Time_used 22H-51M Time_togo 175H-59M
+------------------------------------------------------------
+Num steps: 5750000  return: 439.6
+------------------------------------------------------------
+Mean_return:1.75 Frame:23.11 M  Time_used 23H-6M Time_togo 176H-55M
+Mean_return:1.68 Frame:23.22 M  Time_used 23H-12M Time_togo 176H-42M
+Mean_return:1.55 Frame:23.33 M  Time_used 23H-18M Time_togo 176H-27M
+Mean_return:1.57 Frame:23.44 M  Time_used 23H-23M Time_togo 176H-14M
+Mean_return:1.62 Frame:23.55 M  Time_used 23H-29M Time_togo 175H-59M
+Mean_return:1.67 Frame:23.66 M  Time_used 23H-34M Time_togo 175H-46M
+Mean_return:1.55 Frame:23.77 M  Time_used 23H-40M Time_togo 175H-31M
+Mean_return:1.61 Frame:23.88 M  Time_used 23H-45M Time_togo 175H-18M
+Mean_return:1.32 Frame:23.98 M  Time_used 23H-51M Time_togo 175H-4M
+------------------------------------------------------------
+Num steps: 6000000  return: 377.4
+------------------------------------------------------------
+Mean_return:1.58 Frame:24.09 M  Time_used 24H-5M Time_togo 175H-55M
+Mean_return:1.54 Frame:24.20 M  Time_used 24H-10M Time_togo 175H-39M
+Mean_return:1.65 Frame:24.31 M  Time_used 24H-16M Time_togo 175H-25M
+Mean_return:1.48 Frame:24.43 M  Time_used 24H-21M Time_togo 175H-8M
+Mean_return:1.63 Frame:24.54 M  Time_used 24H-27M Time_togo 174H-51M
+Mean_return:1.66 Frame:24.66 M  Time_used 24H-33M Time_togo 174H-37M
+Mean_return:1.71 Frame:24.77 M  Time_used 24H-38M Time_togo 174H-23M
+Mean_return:1.52 Frame:24.88 M  Time_used 24H-44M Time_togo 174H-7M
+Mean_return:1.52 Frame:24.99 M  Time_used 24H-49M Time_togo 173H-51M
+------------------------------------------------------------
+Num steps: 6250000  return: 527.3
+------------------------------------------------------------
+Mean_return:1.79 Frame:25.10 M  Time_used 25H-3M Time_togo 174H-37M
+Mean_return:1.55 Frame:25.21 M  Time_used 25H-8M Time_togo 174H-21M
+Mean_return:1.73 Frame:25.33 M  Time_used 25H-14M Time_togo 174H-4M
+Mean_return:1.31 Frame:25.43 M  Time_used 25H-19M Time_togo 173H-51M
+Mean_return:1.32 Frame:25.54 M  Time_used 25H-24M Time_togo 173H-37M
+Mean_return:1.62 Frame:25.65 M  Time_used 25H-30M Time_togo 173H-23M
+Mean_return:1.48 Frame:25.76 M  Time_used 25H-35M Time_togo 173H-8M
+Mean_return:1.36 Frame:25.87 M  Time_used 25H-41M Time_togo 172H-54M
+Mean_return:1.47 Frame:25.98 M  Time_used 25H-46M Time_togo 172H-42M
+------------------------------------------------------------
+Num steps: 6500000  return: 500.0
+------------------------------------------------------------
+Mean_return:1.44 Frame:26.08 M  Time_used 26H-0M Time_togo 173H-27M
+Mean_return:1.59 Frame:26.20 M  Time_used 26H-6M Time_togo 173H-9M
+Mean_return:1.58 Frame:26.31 M  Time_used 26H-11M Time_togo 172H-55M
+Mean_return:1.5 Frame:26.42 M  Time_used 26H-17M Time_togo 172H-41M
+Mean_return:1.58 Frame:26.53 M  Time_used 26H-22M Time_togo 172H-26M
+Mean_return:1.52 Frame:26.64 M  Time_used 26H-27M Time_togo 172H-13M
+Mean_return:1.39 Frame:26.74 M  Time_used 26H-32M Time_togo 171H-59M
+Mean_return:1.71 Frame:26.86 M  Time_used 26H-38M Time_togo 171H-45M
+Mean_return:1.55 Frame:26.97 M  Time_used 26H-43M Time_togo 171H-29M
+------------------------------------------------------------
+Num steps: 6750000  return: 431.9
+------------------------------------------------------------
+Mean_return:1.54 Frame:27.07 M  Time_used 26H-57M Time_togo 172H-12M
+Mean_return:1.39 Frame:27.18 M  Time_used 27H-2M Time_togo 171H-58M
+Mean_return:1.44 Frame:27.29 M  Time_used 27H-8M Time_togo 171H-44M
+Mean_return:1.33 Frame:27.39 M  Time_used 27H-13M Time_togo 171H-31M
+Mean_return:1.43 Frame:27.51 M  Time_used 27H-18M Time_togo 171H-17M
+Mean_return:1.4 Frame:27.62 M  Time_used 27H-24M Time_togo 171H-2M
+Mean_return:1.5 Frame:27.72 M  Time_used 27H-29M Time_togo 170H-50M
+Mean_return:1.6 Frame:27.84 M  Time_used 27H-34M Time_togo 170H-35M
+Mean_return:1.56 Frame:27.94 M  Time_used 27H-40M Time_togo 170H-20M
+------------------------------------------------------------
+Num steps: 7000000  return: 439.5
+------------------------------------------------------------
+Mean_return:1.36 Frame:28.05 M  Time_used 27H-53M Time_togo 171H-1M
+Mean_return:1.43 Frame:28.16 M  Time_used 27H-58M Time_togo 170H-46M
+Mean_return:1.44 Frame:28.27 M  Time_used 28H-4M Time_togo 170H-33M
+Mean_return:1.41 Frame:28.38 M  Time_used 28H-9M Time_togo 170H-21M
+Mean_return:1.74 Frame:28.49 M  Time_used 28H-15M Time_togo 170H-7M
+Mean_return:1.57 Frame:28.60 M  Time_used 28H-20M Time_togo 169H-55M
+Mean_return:1.43 Frame:28.70 M  Time_used 28H-26M Time_togo 169H-43M
+Mean_return:1.44 Frame:28.81 M  Time_used 28H-31M Time_togo 169H-30M
+Mean_return:1.39 Frame:28.91 M  Time_used 28H-36M Time_togo 169H-17M
+------------------------------------------------------------
+Num steps: 7250000  return: 448.8
+------------------------------------------------------------
+Mean_return:1.55 Frame:29.02 M  Time_used 28H-51M Time_togo 169H-57M
+Mean_return:1.43 Frame:29.13 M  Time_used 28H-56M Time_togo 169H-44M
+Mean_return:1.42 Frame:29.24 M  Time_used 29H-2M Time_togo 169H-33M
+Mean_return:1.54 Frame:29.35 M  Time_used 29H-7M Time_togo 169H-20M
+Mean_return:1.47 Frame:29.45 M  Time_used 29H-12M Time_togo 169H-8M
+Mean_return:1.62 Frame:29.57 M  Time_used 29H-18M Time_togo 168H-54M
+Mean_return:1.5 Frame:29.67 M  Time_used 29H-23M Time_togo 168H-43M
+Mean_return:1.29 Frame:29.78 M  Time_used 29H-28M Time_togo 168H-29M
+Mean_return:1.56 Frame:29.89 M  Time_used 29H-34M Time_togo 168H-18M
+Mean_return:1.31 Frame:29.99 M  Time_used 29H-39M Time_togo 168H-6M
+------------------------------------------------------------
+Num steps: 7500000  return: 407.1
+------------------------------------------------------------
+Mean_return:1.59 Frame:30.10 M  Time_used 29H-53M Time_togo 168H-43M
+Mean_return:1.62 Frame:30.21 M  Time_used 29H-58M Time_togo 168H-31M
+Mean_return:1.63 Frame:30.32 M  Time_used 30H-4M Time_togo 168H-17M
+Mean_return:1.66 Frame:30.43 M  Time_used 30H-9M Time_togo 168H-2M
+Mean_return:1.87 Frame:30.54 M  Time_used 30H-14M Time_togo 167H-48M
+Mean_return:1.44 Frame:30.65 M  Time_used 30H-19M Time_togo 167H-34M
+Mean_return:1.56 Frame:30.76 M  Time_used 30H-24M Time_togo 167H-22M
+Mean_return:1.75 Frame:30.87 M  Time_used 30H-30M Time_togo 167H-8M
+Mean_return:1.53 Frame:30.97 M  Time_used 30H-35M Time_togo 166H-55M
+------------------------------------------------------------
+Num steps: 7750000  return: 450.6
+------------------------------------------------------------
+Mean_return:1.62 Frame:31.08 M  Time_used 30H-49M Time_togo 167H-30M
+Mean_return:1.47 Frame:31.19 M  Time_used 30H-54M Time_togo 167H-16M
+Mean_return:1.35 Frame:31.30 M  Time_used 30H-59M Time_togo 167H-3M
+Mean_return:1.38 Frame:31.41 M  Time_used 31H-5M Time_togo 166H-51M
+Mean_return:1.61 Frame:31.53 M  Time_used 31H-11M Time_togo 166H-39M
+Mean_return:1.5 Frame:31.63 M  Time_used 31H-16M Time_togo 166H-29M
+Mean_return:1.28 Frame:31.73 M  Time_used 31H-21M Time_togo 166H-18M
+Mean_return:1.53 Frame:31.84 M  Time_used 31H-27M Time_togo 166H-7M
+Mean_return:1.69 Frame:31.95 M  Time_used 31H-32M Time_togo 165H-53M
+------------------------------------------------------------
+Num steps: 8000000  return: 413.9
+------------------------------------------------------------
+Mean_return:1.55 Frame:32.06 M  Time_used 31H-46M Time_togo 166H-27M
+Mean_return:1.43 Frame:32.17 M  Time_used 31H-51M Time_togo 166H-14M
+Mean_return:1.56 Frame:32.28 M  Time_used 31H-56M Time_togo 166H-1M
+Mean_return:1.52 Frame:32.39 M  Time_used 32H-2M Time_togo 165H-49M
+Mean_return:1.51 Frame:32.49 M  Time_used 32H-7M Time_togo 165H-36M
+Mean_return:1.45 Frame:32.60 M  Time_used 32H-12M Time_togo 165H-24M
+Mean_return:1.33 Frame:32.71 M  Time_used 32H-18M Time_togo 165H-14M
+Mean_return:1.46 Frame:32.81 M  Time_used 32H-23M Time_togo 165H-3M
+Mean_return:1.44 Frame:32.91 M  Time_used 32H-28M Time_togo 164H-52M
+------------------------------------------------------------
+Num steps: 8250000  return: 433.5
+------------------------------------------------------------
+Mean_return:1.41 Frame:33.02 M  Time_used 32H-42M Time_togo 165H-25M
+Mean_return:1.63 Frame:33.13 M  Time_used 32H-48M Time_togo 165H-14M
+Mean_return:1.64 Frame:33.24 M  Time_used 32H-53M Time_togo 165H-3M
+Mean_return:1.63 Frame:33.35 M  Time_used 32H-59M Time_togo 164H-50M
+Mean_return:1.85 Frame:33.47 M  Time_used 33H-4M Time_togo 164H-36M
+Mean_return:1.63 Frame:33.58 M  Time_used 33H-9M Time_togo 164H-22M
+Mean_return:1.6 Frame:33.69 M  Time_used 33H-15M Time_togo 164H-8M
+Mean_return:1.44 Frame:33.79 M  Time_used 33H-19M Time_togo 163H-56M
+Mean_return:1.46 Frame:33.89 M  Time_used 33H-24M Time_togo 163H-44M
+Mean_return:1.62 Frame:34.00 M  Time_used 33H-29M Time_togo 163H-31M
+------------------------------------------------------------
+Num steps: 8500000  return: 548.6
+------------------------------------------------------------
+Mean_return:1.68 Frame:34.10 M  Time_used 33H-43M Time_togo 164H-1M
+Mean_return:1.52 Frame:34.21 M  Time_used 33H-48M Time_togo 163H-50M
+Mean_return:1.65 Frame:34.32 M  Time_used 33H-54M Time_togo 163H-39M
+Mean_return:1.58 Frame:34.43 M  Time_used 33H-59M Time_togo 163H-28M
+Mean_return:1.56 Frame:34.54 M  Time_used 34H-4M Time_togo 163H-16M
+Mean_return:1.49 Frame:34.65 M  Time_used 34H-10M Time_togo 163H-4M
+Mean_return:1.63 Frame:34.76 M  Time_used 34H-15M Time_togo 162H-52M
+Mean_return:1.6 Frame:34.87 M  Time_used 34H-21M Time_togo 162H-40M
+Mean_return:1.49 Frame:34.98 M  Time_used 34H-26M Time_togo 162H-28M
+------------------------------------------------------------
+Num steps: 8750000  return: 530.9
+------------------------------------------------------------
+Mean_return:1.6 Frame:35.09 M  Time_used 34H-40M Time_togo 162H-57M
+Mean_return:1.75 Frame:35.20 M  Time_used 34H-45M Time_togo 162H-46M
+Mean_return:1.48 Frame:35.30 M  Time_used 34H-51M Time_togo 162H-35M
+Mean_return:1.57 Frame:35.42 M  Time_used 34H-56M Time_togo 162H-24M
+Mean_return:1.53 Frame:35.52 M  Time_used 35H-1M Time_togo 162H-12M
+Mean_return:1.48 Frame:35.62 M  Time_used 35H-6M Time_togo 162H-0M
+Mean_return:1.6 Frame:35.74 M  Time_used 35H-12M Time_togo 161H-49M
+Mean_return:1.64 Frame:35.85 M  Time_used 35H-17M Time_togo 161H-36M
+Mean_return:1.61 Frame:35.96 M  Time_used 35H-22M Time_togo 161H-23M
+------------------------------------------------------------
+Num steps: 9000000  return: 557.5
+------------------------------------------------------------
+Mean_return:1.53 Frame:36.07 M  Time_used 35H-36M Time_togo 161H-50M
+Mean_return:1.32 Frame:36.17 M  Time_used 35H-41M Time_togo 161H-38M
+Mean_return:1.69 Frame:36.29 M  Time_used 35H-46M Time_togo 161H-24M
+Mean_return:1.71 Frame:36.41 M  Time_used 35H-52M Time_togo 161H-11M
+Mean_return:1.39 Frame:36.51 M  Time_used 35H-57M Time_togo 161H-1M
+Mean_return:1.77 Frame:36.63 M  Time_used 36H-3M Time_togo 160H-48M
+Mean_return:1.75 Frame:36.75 M  Time_used 36H-9M Time_togo 160H-37M
+Mean_return:1.64 Frame:36.86 M  Time_used 36H-14M Time_togo 160H-25M
+Mean_return:1.78 Frame:36.97 M  Time_used 36H-20M Time_togo 160H-13M
+------------------------------------------------------------
+Num steps: 9250000  return: 511.2
+------------------------------------------------------------
+Mean_return:1.52 Frame:37.08 M  Time_used 36H-34M Time_togo 160H-40M
+Mean_return:1.63 Frame:37.19 M  Time_used 36H-39M Time_togo 160H-28M
+Mean_return:1.59 Frame:37.30 M  Time_used 36H-44M Time_togo 160H-17M
+Mean_return:1.6 Frame:37.41 M  Time_used 36H-50M Time_togo 160H-6M
+Mean_return:1.45 Frame:37.51 M  Time_used 36H-55M Time_togo 159H-55M
+Mean_return:1.73 Frame:37.63 M  Time_used 37H-0M Time_togo 159H-43M
+Mean_return:1.58 Frame:37.74 M  Time_used 37H-6M Time_togo 159H-32M
+Mean_return:1.61 Frame:37.85 M  Time_used 37H-11M Time_togo 159H-21M
+Mean_return:1.57 Frame:37.95 M  Time_used 37H-16M Time_togo 159H-9M
+------------------------------------------------------------
+Num steps: 9500000  return: 384.8
+------------------------------------------------------------
+Mean_return:1.66 Frame:38.05 M  Time_used 37H-30M Time_togo 159H-35M
+Mean_return:1.54 Frame:38.16 M  Time_used 37H-35M Time_togo 159H-23M
+Mean_return:1.46 Frame:38.26 M  Time_used 37H-39M Time_togo 159H-12M
+Mean_return:1.4 Frame:38.37 M  Time_used 37H-45M Time_togo 159H-2M
+Mean_return:1.46 Frame:38.47 M  Time_used 37H-50M Time_togo 158H-52M
+Mean_return:1.86 Frame:38.59 M  Time_used 37H-55M Time_togo 158H-40M
+Mean_return:1.32 Frame:38.69 M  Time_used 38H-0M Time_togo 158H-30M
+Mean_return:1.48 Frame:38.80 M  Time_used 38H-6M Time_togo 158H-20M
+Mean_return:1.77 Frame:38.91 M  Time_used 38H-11M Time_togo 158H-8M
+------------------------------------------------------------
+Num steps: 9750000  return: 446.7
+------------------------------------------------------------
+Mean_return:1.69 Frame:39.01 M  Time_used 38H-25M Time_togo 158H-32M
+Mean_return:1.65 Frame:39.13 M  Time_used 38H-30M Time_togo 158H-20M
+Mean_return:1.69 Frame:39.24 M  Time_used 38H-36M Time_togo 158H-9M
+Mean_return:1.55 Frame:39.34 M  Time_used 38H-41M Time_togo 157H-59M
+Mean_return:1.97 Frame:39.46 M  Time_used 38H-47M Time_togo 157H-48M
+Mean_return:1.41 Frame:39.57 M  Time_used 38H-52M Time_togo 157H-37M
+Mean_return:1.68 Frame:39.67 M  Time_used 38H-57M Time_togo 157H-27M
+Mean_return:1.35 Frame:39.78 M  Time_used 39H-2M Time_togo 157H-17M
+Mean_return:1.94 Frame:39.89 M  Time_used 39H-8M Time_togo 157H-6M
+------------------------------------------------------------
+Num steps: 10000000  return: 393.0
+------------------------------------------------------------
+Mean_return:1.8 Frame:40.00 M  Time_used 39H-23M Time_togo 157H-31M
+Mean_return:1.8 Frame:40.11 M  Time_used 39H-28M Time_togo 157H-19M
+Mean_return:1.5 Frame:40.22 M  Time_used 39H-33M Time_togo 157H-9M
+Mean_return:1.53 Frame:40.33 M  Time_used 39H-39M Time_togo 156H-58M
+Mean_return:1.49 Frame:40.44 M  Time_used 39H-45M Time_togo 156H-49M
+Mean_return:1.46 Frame:40.55 M  Time_used 39H-50M Time_togo 156H-39M
+Mean_return:1.77 Frame:40.66 M  Time_used 39H-55M Time_togo 156H-29M
+Mean_return:1.84 Frame:40.77 M  Time_used 40H-1M Time_togo 156H-20M
+Mean_return:1.71 Frame:40.88 M  Time_used 40H-7M Time_togo 156H-10M
+Mean_return:1.25 Frame:40.98 M  Time_used 40H-12M Time_togo 156H-0M
+------------------------------------------------------------
+Num steps: 10250000  return: 334.9
+------------------------------------------------------------
+Mean_return:1.47 Frame:41.09 M  Time_used 40H-26M Time_togo 156H-24M
+Mean_return:1.58 Frame:41.20 M  Time_used 40H-32M Time_togo 156H-14M
+Mean_return:1.59 Frame:41.31 M  Time_used 40H-37M Time_togo 156H-4M
+Mean_return:1.45 Frame:41.41 M  Time_used 40H-42M Time_togo 155H-55M
+Mean_return:1.64 Frame:41.52 M  Time_used 40H-48M Time_togo 155H-46M
+Mean_return:1.61 Frame:41.62 M  Time_used 40H-53M Time_togo 155H-36M
+Mean_return:1.82 Frame:41.74 M  Time_used 40H-59M Time_togo 155H-27M
+Mean_return:2.06 Frame:41.86 M  Time_used 41H-6M Time_togo 155H-17M
+Mean_return:1.88 Frame:41.97 M  Time_used 41H-11M Time_togo 155H-7M
+------------------------------------------------------------
+Num steps: 10500000  return: 649.3
+------------------------------------------------------------
+Mean_return:1.52 Frame:42.08 M  Time_used 41H-25M Time_togo 155H-30M
+Mean_return:1.55 Frame:42.19 M  Time_used 41H-31M Time_togo 155H-21M
+Mean_return:1.78 Frame:42.30 M  Time_used 41H-37M Time_togo 155H-10M
+Mean_return:1.61 Frame:42.41 M  Time_used 41H-43M Time_togo 155H-2M
+Mean_return:1.95 Frame:42.52 M  Time_used 41H-48M Time_togo 154H-52M
+Mean_return:2.01 Frame:42.63 M  Time_used 41H-54M Time_togo 154H-41M
+Mean_return:1.63 Frame:42.73 M  Time_used 41H-59M Time_togo 154H-32M
+Mean_return:1.94 Frame:42.85 M  Time_used 42H-5M Time_togo 154H-21M
+Mean_return:1.64 Frame:42.96 M  Time_used 42H-10M Time_togo 154H-11M
+------------------------------------------------------------
+Num steps: 10750000  return: 596.2
+------------------------------------------------------------
+Mean_return:1.85 Frame:43.07 M  Time_used 42H-24M Time_togo 154H-32M
+Mean_return:1.86 Frame:43.19 M  Time_used 42H-30M Time_togo 154H-21M
+Mean_return:1.94 Frame:43.30 M  Time_used 42H-36M Time_togo 154H-11M
+Mean_return:1.86 Frame:43.41 M  Time_used 42H-41M Time_togo 154H-0M
+Mean_return:1.7 Frame:43.51 M  Time_used 42H-46M Time_togo 153H-51M
+Mean_return:1.82 Frame:43.62 M  Time_used 42H-52M Time_togo 153H-40M
+Mean_return:1.57 Frame:43.73 M  Time_used 42H-57M Time_togo 153H-31M
+Mean_return:1.99 Frame:43.84 M  Time_used 43H-2M Time_togo 153H-20M
+Mean_return:2.04 Frame:43.95 M  Time_used 43H-8M Time_togo 153H-11M
+------------------------------------------------------------
+Num steps: 11000000  return: 618.1
+------------------------------------------------------------
+Mean_return:1.99 Frame:44.05 M  Time_used 43H-22M Time_togo 153H-32M
+Mean_return:2.41 Frame:44.17 M  Time_used 43H-28M Time_togo 153H-22M
+Mean_return:1.84 Frame:44.27 M  Time_used 43H-33M Time_togo 153H-12M
+Mean_return:1.65 Frame:44.38 M  Time_used 43H-38M Time_togo 153H-2M
+Mean_return:1.98 Frame:44.49 M  Time_used 43H-43M Time_togo 152H-52M
+Mean_return:1.72 Frame:44.59 M  Time_used 43H-49M Time_togo 152H-44M
+Mean_return:2.09 Frame:44.71 M  Time_used 43H-55M Time_togo 152H-33M
+Mean_return:1.84 Frame:44.82 M  Time_used 44H-0M Time_togo 152H-23M
+Mean_return:1.93 Frame:44.92 M  Time_used 44H-5M Time_togo 152H-13M
+------------------------------------------------------------
+Num steps: 11250000  return: 702.2
+------------------------------------------------------------
+Mean_return:1.95 Frame:45.03 M  Time_used 44H-19M Time_togo 152H-34M
+Mean_return:2.03 Frame:45.14 M  Time_used 44H-25M Time_togo 152H-23M
+Mean_return:2.19 Frame:45.25 M  Time_used 44H-30M Time_togo 152H-13M
+Mean_return:1.93 Frame:45.36 M  Time_used 44H-35M Time_togo 152H-2M
+Mean_return:2.08 Frame:45.47 M  Time_used 44H-41M Time_togo 151H-52M
+Mean_return:1.86 Frame:45.58 M  Time_used 44H-47M Time_togo 151H-43M
+Mean_return:1.68 Frame:45.70 M  Time_used 44H-52M Time_togo 151H-32M
+Mean_return:1.84 Frame:45.81 M  Time_used 44H-58M Time_togo 151H-22M
+Mean_return:2.02 Frame:45.92 M  Time_used 45H-3M Time_togo 151H-12M
+------------------------------------------------------------
+Num steps: 11500000  return: 669.7
+------------------------------------------------------------
+Mean_return:1.9 Frame:46.03 M  Time_used 45H-17M Time_togo 151H-31M
+Mean_return:2.19 Frame:46.14 M  Time_used 45H-22M Time_togo 151H-21M
+Mean_return:2.0 Frame:46.24 M  Time_used 45H-28M Time_togo 151H-11M
+Mean_return:1.87 Frame:46.34 M  Time_used 45H-33M Time_togo 151H-3M
+Mean_return:2.18 Frame:46.45 M  Time_used 45H-39M Time_togo 150H-53M
+Mean_return:1.95 Frame:46.56 M  Time_used 45H-44M Time_togo 150H-43M
+Mean_return:2.01 Frame:46.67 M  Time_used 45H-49M Time_togo 150H-33M
+Mean_return:2.28 Frame:46.79 M  Time_used 45H-55M Time_togo 150H-24M
+Mean_return:2.09 Frame:46.90 M  Time_used 46H-1M Time_togo 150H-14M
+Mean_return:1.91 Frame:47.00 M  Time_used 46H-6M Time_togo 150H-5M
+------------------------------------------------------------
+Num steps: 11750000  return: 655.2
+------------------------------------------------------------
+Mean_return:1.74 Frame:47.10 M  Time_used 46H-20M Time_togo 150H-24M
+Mean_return:2.15 Frame:47.21 M  Time_used 46H-25M Time_togo 150H-14M
+Mean_return:1.64 Frame:47.31 M  Time_used 46H-30M Time_togo 150H-5M
+Mean_return:2.17 Frame:47.42 M  Time_used 46H-35M Time_togo 149H-55M
+Mean_return:2.08 Frame:47.54 M  Time_used 46H-41M Time_togo 149H-44M
+Mean_return:1.94 Frame:47.64 M  Time_used 46H-46M Time_togo 149H-35M
+Mean_return:1.98 Frame:47.75 M  Time_used 46H-52M Time_togo 149H-25M
+Mean_return:1.89 Frame:47.86 M  Time_used 46H-57M Time_togo 149H-16M
+Mean_return:1.95 Frame:47.97 M  Time_used 47H-2M Time_togo 149H-6M
+------------------------------------------------------------
+Num steps: 12000000  return: 680.3
+------------------------------------------------------------
+Mean_return:1.85 Frame:48.07 M  Time_used 47H-16M Time_togo 149H-26M
+Mean_return:2.19 Frame:48.19 M  Time_used 47H-22M Time_togo 149H-15M
+Mean_return:1.74 Frame:48.29 M  Time_used 47H-27M Time_togo 149H-5M
+Mean_return:1.9 Frame:48.39 M  Time_used 47H-31M Time_togo 148H-55M
+Mean_return:2.01 Frame:48.50 M  Time_used 47H-37M Time_togo 148H-45M
+Mean_return:1.85 Frame:48.61 M  Time_used 47H-42M Time_togo 148H-35M
+Mean_return:1.96 Frame:48.71 M  Time_used 47H-47M Time_togo 148H-26M
+Mean_return:2.04 Frame:48.82 M  Time_used 47H-52M Time_togo 148H-17M
+Mean_return:2.16 Frame:48.93 M  Time_used 47H-58M Time_togo 148H-7M
+------------------------------------------------------------
+Num steps: 12250000  return: 190.2
+------------------------------------------------------------
+Mean_return:2.12 Frame:49.04 M  Time_used 48H-12M Time_togo 148H-24M
+Mean_return:1.91 Frame:49.14 M  Time_used 48H-17M Time_togo 148H-14M
+Mean_return:2.39 Frame:49.26 M  Time_used 48H-22M Time_togo 148H-3M
+Mean_return:2.0 Frame:49.36 M  Time_used 48H-27M Time_togo 147H-53M
+Mean_return:1.93 Frame:49.48 M  Time_used 48H-33M Time_togo 147H-43M
+Mean_return:2.08 Frame:49.58 M  Time_used 48H-38M Time_togo 147H-33M
+Mean_return:1.98 Frame:49.69 M  Time_used 48H-43M Time_togo 147H-23M
+Mean_return:1.86 Frame:49.80 M  Time_used 48H-48M Time_togo 147H-13M
+Mean_return:2.5 Frame:49.91 M  Time_used 48H-54M Time_togo 147H-3M
+------------------------------------------------------------
+Num steps: 12500000  return: 431.5
+------------------------------------------------------------
+Mean_return:1.75 Frame:50.02 M  Time_used 49H-8M Time_togo 147H-20M
+Mean_return:1.9 Frame:50.12 M  Time_used 49H-13M Time_togo 147H-11M
+Mean_return:1.95 Frame:50.23 M  Time_used 49H-18M Time_togo 147H-1M
+Mean_return:2.05 Frame:50.34 M  Time_used 49H-23M Time_togo 146H-52M
+Mean_return:1.97 Frame:50.44 M  Time_used 49H-29M Time_togo 146H-43M
+Mean_return:2.02 Frame:50.55 M  Time_used 49H-34M Time_togo 146H-33M
+Mean_return:2.23 Frame:50.67 M  Time_used 49H-40M Time_togo 146H-23M
+Mean_return:2.1 Frame:50.77 M  Time_used 49H-45M Time_togo 146H-13M
+Mean_return:2.04 Frame:50.88 M  Time_used 49H-50M Time_togo 146H-2M
+Mean_return:2.32 Frame:50.99 M  Time_used 49H-55M Time_togo 145H-52M
+------------------------------------------------------------
+Num steps: 12750000  return: 759.9
+------------------------------------------------------------
+Mean_return:2.14 Frame:51.10 M  Time_used 50H-9M Time_togo 146H-8M
+Mean_return:1.82 Frame:51.20 M  Time_used 50H-14M Time_togo 145H-59M
+Mean_return:2.08 Frame:51.31 M  Time_used 50H-19M Time_togo 145H-49M
+Mean_return:2.08 Frame:51.42 M  Time_used 50H-24M Time_togo 145H-39M
+Mean_return:1.93 Frame:51.52 M  Time_used 50H-29M Time_togo 145H-30M
+Mean_return:2.29 Frame:51.64 M  Time_used 50H-34M Time_togo 145H-19M
+Mean_return:2.15 Frame:51.75 M  Time_used 50H-40M Time_togo 145H-9M
+Mean_return:2.08 Frame:51.85 M  Time_used 50H-45M Time_togo 145H-0M
+Mean_return:2.03 Frame:51.96 M  Time_used 50H-50M Time_togo 144H-51M
+------------------------------------------------------------
+Num steps: 13000000  return: 580.2
+------------------------------------------------------------
+Mean_return:1.89 Frame:52.06 M  Time_used 51H-4M Time_togo 145H-7M
+Mean_return:2.0 Frame:52.17 M  Time_used 51H-9M Time_togo 144H-57M
+Mean_return:2.15 Frame:52.29 M  Time_used 51H-15M Time_togo 144H-46M
+Mean_return:2.17 Frame:52.40 M  Time_used 51H-20M Time_togo 144H-35M
+Mean_return:1.97 Frame:52.51 M  Time_used 51H-25M Time_togo 144H-25M
+Mean_return:2.03 Frame:52.62 M  Time_used 51H-30M Time_togo 144H-16M
+Mean_return:2.04 Frame:52.72 M  Time_used 51H-35M Time_togo 144H-6M
+Mean_return:1.77 Frame:52.82 M  Time_used 51H-40M Time_togo 143H-57M
+Mean_return:1.88 Frame:52.93 M  Time_used 51H-45M Time_togo 143H-48M
+------------------------------------------------------------
+Num steps: 13250000  return: 676.2
+------------------------------------------------------------
+Mean_return:2.03 Frame:53.03 M  Time_used 51H-59M Time_togo 144H-4M
+Mean_return:1.98 Frame:53.14 M  Time_used 52H-4M Time_togo 143H-54M
+Mean_return:1.97 Frame:53.26 M  Time_used 52H-10M Time_togo 143H-45M
+Mean_return:2.13 Frame:53.36 M  Time_used 52H-15M Time_togo 143H-35M
+Mean_return:2.09 Frame:53.47 M  Time_used 52H-20M Time_togo 143H-26M
+Mean_return:2.05 Frame:53.59 M  Time_used 52H-26M Time_togo 143H-17M
+Mean_return:2.13 Frame:53.70 M  Time_used 52H-32M Time_togo 143H-8M
+Mean_return:2.14 Frame:53.81 M  Time_used 52H-37M Time_togo 142H-58M
+Mean_return:2.03 Frame:53.92 M  Time_used 52H-42M Time_togo 142H-48M
+------------------------------------------------------------
+Num steps: 13500000  return: 708.8
+------------------------------------------------------------
+Mean_return:1.87 Frame:54.02 M  Time_used 52H-56M Time_togo 143H-2M
+Mean_return:2.24 Frame:54.13 M  Time_used 53H-1M Time_togo 142H-53M
+Mean_return:2.22 Frame:54.24 M  Time_used 53H-6M Time_togo 142H-44M
+Mean_return:2.19 Frame:54.35 M  Time_used 53H-12M Time_togo 142H-35M
+Mean_return:1.82 Frame:54.46 M  Time_used 53H-18M Time_togo 142H-26M
+Mean_return:2.13 Frame:54.58 M  Time_used 53H-23M Time_togo 142H-17M
+Mean_return:2.03 Frame:54.68 M  Time_used 53H-29M Time_togo 142H-8M
+Mean_return:2.02 Frame:54.79 M  Time_used 53H-34M Time_togo 141H-59M
+Mean_return:2.28 Frame:54.90 M  Time_used 53H-39M Time_togo 141H-49M
+------------------------------------------------------------
+Num steps: 13750000  return: 745.2
+------------------------------------------------------------
+Mean_return:2.23 Frame:55.02 M  Time_used 53H-53M Time_togo 142H-2M
+Mean_return:1.94 Frame:55.12 M  Time_used 53H-59M Time_togo 141H-54M
+Mean_return:2.06 Frame:55.23 M  Time_used 54H-4M Time_togo 141H-44M
+Mean_return:1.91 Frame:55.33 M  Time_used 54H-9M Time_togo 141H-36M
+Mean_return:1.96 Frame:55.44 M  Time_used 54H-14M Time_togo 141H-26M
+Mean_return:1.89 Frame:55.55 M  Time_used 54H-19M Time_togo 141H-17M
+Mean_return:1.9 Frame:55.65 M  Time_used 54H-24M Time_togo 141H-7M
+Mean_return:1.86 Frame:55.76 M  Time_used 54H-29M Time_togo 140H-58M
+Mean_return:2.28 Frame:55.87 M  Time_used 54H-35M Time_togo 140H-49M
+Mean_return:1.97 Frame:55.97 M  Time_used 54H-40M Time_togo 140H-40M
+------------------------------------------------------------
+Num steps: 14000000  return: 593.6
+------------------------------------------------------------
+Mean_return:1.73 Frame:56.08 M  Time_used 54H-53M Time_togo 140H-53M
+Mean_return:2.13 Frame:56.19 M  Time_used 54H-59M Time_togo 140H-44M
+Mean_return:1.7 Frame:56.30 M  Time_used 55H-4M Time_togo 140H-34M
+Mean_return:2.32 Frame:56.42 M  Time_used 55H-9M Time_togo 140H-24M
+Mean_return:1.85 Frame:56.51 M  Time_used 55H-14M Time_togo 140H-16M
+Mean_return:1.9 Frame:56.62 M  Time_used 55H-19M Time_togo 140H-6M
+Mean_return:1.81 Frame:56.72 M  Time_used 55H-24M Time_togo 139H-58M
+Mean_return:1.9 Frame:56.83 M  Time_used 55H-29M Time_togo 139H-49M
+Mean_return:2.09 Frame:56.93 M  Time_used 55H-34M Time_togo 139H-39M
+------------------------------------------------------------
+Num steps: 14250000  return: 757.5
+------------------------------------------------------------
+Mean_return:2.05 Frame:57.04 M  Time_used 55H-48M Time_togo 139H-52M
+Mean_return:2.03 Frame:57.14 M  Time_used 55H-53M Time_togo 139H-43M
+Mean_return:1.92 Frame:57.24 M  Time_used 55H-57M Time_togo 139H-34M
+Mean_return:2.12 Frame:57.35 M  Time_used 56H-2M Time_togo 139H-24M
+Mean_return:2.16 Frame:57.46 M  Time_used 56H-7M Time_togo 139H-15M
+Mean_return:1.8 Frame:57.56 M  Time_used 56H-12M Time_togo 139H-5M
+Mean_return:1.82 Frame:57.67 M  Time_used 56H-17M Time_togo 138H-56M
+Mean_return:1.99 Frame:57.78 M  Time_used 56H-22M Time_togo 138H-46M
+Mean_return:2.09 Frame:57.89 M  Time_used 56H-27M Time_togo 138H-36M
+Mean_return:1.72 Frame:58.00 M  Time_used 56H-32M Time_togo 138H-27M
+------------------------------------------------------------
+Num steps: 14500000  return: 534.6
+------------------------------------------------------------
+Mean_return:2.25 Frame:58.11 M  Time_used 56H-46M Time_togo 138H-39M
+Mean_return:2.0 Frame:58.22 M  Time_used 56H-52M Time_togo 138H-30M
+Mean_return:1.86 Frame:58.33 M  Time_used 56H-57M Time_togo 138H-20M
+Mean_return:1.94 Frame:58.43 M  Time_used 57H-2M Time_togo 138H-12M
+Mean_return:2.01 Frame:58.54 M  Time_used 57H-7M Time_togo 138H-3M
+Mean_return:2.24 Frame:58.65 M  Time_used 57H-12M Time_togo 137H-53M
+Mean_return:2.23 Frame:58.76 M  Time_used 57H-18M Time_togo 137H-44M
+Mean_return:2.26 Frame:58.87 M  Time_used 57H-23M Time_togo 137H-34M
+Mean_return:1.73 Frame:58.97 M  Time_used 57H-28M Time_togo 137H-26M
+------------------------------------------------------------
+Num steps: 14750000  return: 489.5
+------------------------------------------------------------
+Mean_return:1.92 Frame:59.07 M  Time_used 57H-41M Time_togo 137H-38M
+Mean_return:2.07 Frame:59.18 M  Time_used 57H-47M Time_togo 137H-29M
+Mean_return:2.35 Frame:59.30 M  Time_used 57H-52M Time_togo 137H-19M
+Mean_return:2.22 Frame:59.40 M  Time_used 57H-57M Time_togo 137H-10M
+Mean_return:2.03 Frame:59.51 M  Time_used 58H-2M Time_togo 137H-1M
+Mean_return:2.15 Frame:59.62 M  Time_used 58H-7M Time_togo 136H-51M
+Mean_return:2.53 Frame:59.73 M  Time_used 58H-12M Time_togo 136H-41M
+Mean_return:2.24 Frame:59.85 M  Time_used 58H-18M Time_togo 136H-32M
+Mean_return:1.99 Frame:59.95 M  Time_used 58H-23M Time_togo 136H-24M
+------------------------------------------------------------
+Num steps: 15000000  return: 747.3
+------------------------------------------------------------
+Mean_return:2.05 Frame:60.07 M  Time_used 58H-37M Time_togo 136H-34M
+Mean_return:2.09 Frame:60.18 M  Time_used 58H-43M Time_togo 136H-25M
+Mean_return:2.1 Frame:60.29 M  Time_used 58H-48M Time_togo 136H-16M
+Mean_return:2.04 Frame:60.39 M  Time_used 58H-53M Time_togo 136H-7M
+Mean_return:1.96 Frame:60.50 M  Time_used 58H-58M Time_togo 135H-59M
+Mean_return:1.93 Frame:60.60 M  Time_used 59H-2M Time_togo 135H-50M
+Mean_return:1.94 Frame:60.70 M  Time_used 59H-8M Time_togo 135H-42M
+Mean_return:1.98 Frame:60.81 M  Time_used 59H-13M Time_togo 135H-33M
+Mean_return:2.14 Frame:60.92 M  Time_used 59H-18M Time_togo 135H-24M
+------------------------------------------------------------
+Num steps: 15250000  return: 797.9
+------------------------------------------------------------
+Mean_return:2.52 Frame:61.03 M  Time_used 59H-32M Time_togo 135H-34M
+Mean_return:2.06 Frame:61.14 M  Time_used 59H-37M Time_togo 135H-25M
+Mean_return:2.2 Frame:61.25 M  Time_used 59H-42M Time_togo 135H-16M
+Mean_return:2.14 Frame:61.36 M  Time_used 59H-48M Time_togo 135H-7M
+Mean_return:2.44 Frame:61.47 M  Time_used 59H-53M Time_togo 134H-57M
+Mean_return:2.15 Frame:61.58 M  Time_used 59H-58M Time_togo 134H-48M
+Mean_return:2.24 Frame:61.69 M  Time_used 60H-3M Time_togo 134H-39M
+Mean_return:2.5 Frame:61.81 M  Time_used 60H-9M Time_togo 134H-28M
+Mean_return:2.31 Frame:61.92 M  Time_used 60H-14M Time_togo 134H-19M
+------------------------------------------------------------
+Num steps: 15500000  return: 714.8
+------------------------------------------------------------
+Mean_return:2.25 Frame:62.03 M  Time_used 60H-28M Time_togo 134H-30M
+Mean_return:2.24 Frame:62.14 M  Time_used 60H-33M Time_togo 134H-21M
+Mean_return:1.98 Frame:62.24 M  Time_used 60H-37M Time_togo 134H-12M
+Mean_return:2.18 Frame:62.34 M  Time_used 60H-42M Time_togo 134H-4M
+Mean_return:2.5 Frame:62.45 M  Time_used 60H-48M Time_togo 133H-54M
+Mean_return:2.36 Frame:62.56 M  Time_used 60H-53M Time_togo 133H-45M
+Mean_return:2.43 Frame:62.67 M  Time_used 60H-58M Time_togo 133H-36M
+Mean_return:2.42 Frame:62.78 M  Time_used 61H-3M Time_togo 133H-27M
+Mean_return:2.23 Frame:62.89 M  Time_used 61H-8M Time_togo 133H-18M
+------------------------------------------------------------
+Num steps: 15750000  return: 610.0
+------------------------------------------------------------
+Mean_return:2.28 Frame:63.00 M  Time_used 61H-23M Time_togo 133H-29M
+Mean_return:2.51 Frame:63.12 M  Time_used 61H-28M Time_togo 133H-19M
+Mean_return:2.1 Frame:63.23 M  Time_used 61H-33M Time_togo 133H-10M
+Mean_return:2.31 Frame:63.35 M  Time_used 61H-39M Time_togo 133H-0M
+Mean_return:2.0 Frame:63.45 M  Time_used 61H-44M Time_togo 132H-51M
+Mean_return:2.56 Frame:63.57 M  Time_used 61H-50M Time_togo 132H-43M
+Mean_return:2.47 Frame:63.68 M  Time_used 61H-56M Time_togo 132H-34M
+Mean_return:2.36 Frame:63.80 M  Time_used 62H-1M Time_togo 132H-25M
+Mean_return:2.35 Frame:63.92 M  Time_used 62H-7M Time_togo 132H-15M
+------------------------------------------------------------
+Num steps: 16000000  return: 1063.8
+------------------------------------------------------------
+Mean_return:2.14 Frame:64.03 M  Time_used 62H-21M Time_togo 132H-24M
+Mean_return:2.01 Frame:64.14 M  Time_used 62H-26M Time_togo 132H-16M
+Mean_return:2.22 Frame:64.24 M  Time_used 62H-31M Time_togo 132H-7M
+Mean_return:2.07 Frame:64.35 M  Time_used 62H-36M Time_togo 131H-59M
+Mean_return:2.01 Frame:64.45 M  Time_used 62H-41M Time_togo 131H-51M
+Mean_return:2.15 Frame:64.56 M  Time_used 62H-46M Time_togo 131H-43M
+Mean_return:2.06 Frame:64.66 M  Time_used 62H-51M Time_togo 131H-34M
+Mean_return:2.21 Frame:64.77 M  Time_used 62H-56M Time_togo 131H-25M
+Mean_return:2.09 Frame:64.88 M  Time_used 63H-1M Time_togo 131H-16M
+Mean_return:2.22 Frame:64.99 M  Time_used 63H-7M Time_togo 131H-7M
+------------------------------------------------------------
+Num steps: 16250000  return: 630.0
+------------------------------------------------------------
+Mean_return:2.05 Frame:65.10 M  Time_used 63H-21M Time_togo 131H-17M
+Mean_return:2.36 Frame:65.22 M  Time_used 63H-27M Time_togo 131H-7M
+Mean_return:1.98 Frame:65.33 M  Time_used 63H-32M Time_togo 130H-58M
+Mean_return:2.27 Frame:65.44 M  Time_used 63H-37M Time_togo 130H-49M
+Mean_return:2.32 Frame:65.54 M  Time_used 63H-42M Time_togo 130H-41M
+Mean_return:2.32 Frame:65.66 M  Time_used 63H-48M Time_togo 130H-32M
+Mean_return:2.54 Frame:65.77 M  Time_used 63H-53M Time_togo 130H-23M
+Mean_return:2.04 Frame:65.88 M  Time_used 63H-58M Time_togo 130H-15M
+Mean_return:2.25 Frame:66.00 M  Time_used 64H-4M Time_togo 130H-5M
+------------------------------------------------------------
+Num steps: 16500000  return: 843.8
+------------------------------------------------------------
+Mean_return:2.16 Frame:66.11 M  Time_used 64H-18M Time_togo 130H-14M
+Mean_return:1.96 Frame:66.21 M  Time_used 64H-23M Time_togo 130H-5M
+Mean_return:2.29 Frame:66.32 M  Time_used 64H-28M Time_togo 129H-56M
+Mean_return:2.1 Frame:66.43 M  Time_used 64H-33M Time_togo 129H-48M
+Mean_return:2.16 Frame:66.53 M  Time_used 64H-37M Time_togo 129H-39M
+Mean_return:2.27 Frame:66.64 M  Time_used 64H-43M Time_togo 129H-31M
+Mean_return:2.33 Frame:66.75 M  Time_used 64H-48M Time_togo 129H-21M
+Mean_return:1.81 Frame:66.86 M  Time_used 64H-53M Time_togo 129H-13M
+Mean_return:2.29 Frame:66.97 M  Time_used 64H-58M Time_togo 129H-4M
+------------------------------------------------------------
+Num steps: 16750000  return: 561.1
+------------------------------------------------------------
+Mean_return:1.89 Frame:67.07 M  Time_used 65H-12M Time_togo 129H-13M
+Mean_return:2.31 Frame:67.18 M  Time_used 65H-17M Time_togo 129H-5M
+Mean_return:2.01 Frame:67.28 M  Time_used 65H-22M Time_togo 128H-56M
+Mean_return:2.27 Frame:67.40 M  Time_used 65H-27M Time_togo 128H-47M
+Mean_return:2.32 Frame:67.51 M  Time_used 65H-33M Time_togo 128H-38M
+Mean_return:2.28 Frame:67.62 M  Time_used 65H-38M Time_togo 128H-30M
+Mean_return:2.44 Frame:67.74 M  Time_used 65H-44M Time_togo 128H-20M
+Mean_return:1.9 Frame:67.84 M  Time_used 65H-48M Time_togo 128H-12M
+Mean_return:2.12 Frame:67.95 M  Time_used 65H-54M Time_togo 128H-4M
+------------------------------------------------------------
+Num steps: 17000000  return: 670.8
+------------------------------------------------------------
+Mean_return:2.18 Frame:68.06 M  Time_used 66H-7M Time_togo 128H-12M
+Mean_return:2.07 Frame:68.16 M  Time_used 66H-12M Time_togo 128H-4M
+Mean_return:2.28 Frame:68.28 M  Time_used 66H-18M Time_togo 127H-55M
+Mean_return:2.27 Frame:68.39 M  Time_used 66H-23M Time_togo 127H-46M
+Mean_return:2.02 Frame:68.49 M  Time_used 66H-28M Time_togo 127H-37M
+Mean_return:2.02 Frame:68.60 M  Time_used 66H-33M Time_togo 127H-29M
+Mean_return:2.3 Frame:68.71 M  Time_used 66H-38M Time_togo 127H-20M
+Mean_return:2.23 Frame:68.82 M  Time_used 66H-43M Time_togo 127H-11M
+Mean_return:2.18 Frame:68.93 M  Time_used 66H-49M Time_togo 127H-3M
+------------------------------------------------------------
+Num steps: 17250000  return: 626.2
+------------------------------------------------------------
+Mean_return:2.11 Frame:69.04 M  Time_used 67H-3M Time_togo 127H-11M
+Mean_return:1.78 Frame:69.14 M  Time_used 67H-7M Time_togo 127H-3M
+Mean_return:1.9 Frame:69.24 M  Time_used 67H-12M Time_togo 126H-55M
+Mean_return:2.05 Frame:69.35 M  Time_used 67H-17M Time_togo 126H-46M
+Mean_return:1.99 Frame:69.46 M  Time_used 67H-22M Time_togo 126H-37M
+Mean_return:2.47 Frame:69.58 M  Time_used 67H-28M Time_togo 126H-28M
+Mean_return:2.3 Frame:69.69 M  Time_used 67H-33M Time_togo 126H-19M
+Mean_return:2.24 Frame:69.80 M  Time_used 67H-38M Time_togo 126H-11M
+Mean_return:1.95 Frame:69.91 M  Time_used 67H-43M Time_togo 126H-2M
+------------------------------------------------------------
+Num steps: 17500000  return: 661.6
+------------------------------------------------------------
+Mean_return:2.34 Frame:70.04 M  Time_used 67H-58M Time_togo 126H-8M
+Mean_return:2.34 Frame:70.15 M  Time_used 68H-3M Time_togo 125H-59M
+Mean_return:2.5 Frame:70.27 M  Time_used 68H-9M Time_togo 125H-50M
+Mean_return:2.15 Frame:70.38 M  Time_used 68H-14M Time_togo 125H-41M
+Mean_return:2.31 Frame:70.49 M  Time_used 68H-19M Time_togo 125H-32M
+Mean_return:2.34 Frame:70.60 M  Time_used 68H-25M Time_togo 125H-23M
+Mean_return:2.2 Frame:70.72 M  Time_used 68H-30M Time_togo 125H-14M
+Mean_return:2.08 Frame:70.84 M  Time_used 68H-36M Time_togo 125H-5M
+Mean_return:1.99 Frame:70.94 M  Time_used 68H-41M Time_togo 124H-57M
+------------------------------------------------------------
+Num steps: 17750000  return: 1078.0
+------------------------------------------------------------
+Mean_return:2.16 Frame:71.05 M  Time_used 68H-55M Time_togo 125H-6M
+Mean_return:2.38 Frame:71.16 M  Time_used 69H-0M Time_togo 124H-57M
+Mean_return:2.23 Frame:71.27 M  Time_used 69H-6M Time_togo 124H-48M
+Mean_return:2.24 Frame:71.38 M  Time_used 69H-11M Time_togo 124H-40M
+Mean_return:2.32 Frame:71.49 M  Time_used 69H-16M Time_togo 124H-31M
+Mean_return:2.0 Frame:71.60 M  Time_used 69H-21M Time_togo 124H-23M
+Mean_return:2.47 Frame:71.71 M  Time_used 69H-26M Time_togo 124H-14M
+Mean_return:2.05 Frame:71.82 M  Time_used 69H-31M Time_togo 124H-6M
+Mean_return:2.31 Frame:71.93 M  Time_used 69H-37M Time_togo 123H-57M
+------------------------------------------------------------
+Num steps: 18000000  return: 633.5
+------------------------------------------------------------
+Mean_return:2.28 Frame:72.04 M  Time_used 69H-51M Time_togo 124H-4M
+Mean_return:2.16 Frame:72.15 M  Time_used 69H-56M Time_togo 123H-56M
+Mean_return:2.03 Frame:72.26 M  Time_used 70H-1M Time_togo 123H-47M
+Mean_return:1.99 Frame:72.36 M  Time_used 70H-6M Time_togo 123H-39M
+Mean_return:2.05 Frame:72.48 M  Time_used 70H-11M Time_togo 123H-30M
+Mean_return:2.17 Frame:72.59 M  Time_used 70H-17M Time_togo 123H-21M
+Mean_return:2.32 Frame:72.70 M  Time_used 70H-22M Time_togo 123H-13M
+Mean_return:2.38 Frame:72.82 M  Time_used 70H-28M Time_togo 123H-4M
+Mean_return:2.36 Frame:72.93 M  Time_used 70H-33M Time_togo 122H-55M
+------------------------------------------------------------
+Num steps: 18250000  return: 711.1
+------------------------------------------------------------
+Mean_return:2.26 Frame:73.05 M  Time_used 70H-47M Time_togo 123H-2M
+Mean_return:2.17 Frame:73.16 M  Time_used 70H-53M Time_togo 122H-54M
+Mean_return:2.46 Frame:73.28 M  Time_used 70H-58M Time_togo 122H-44M
+Mean_return:2.36 Frame:73.40 M  Time_used 71H-4M Time_togo 122H-35M
+Mean_return:2.23 Frame:73.51 M  Time_used 71H-9M Time_togo 122H-26M
+Mean_return:2.28 Frame:73.62 M  Time_used 71H-14M Time_togo 122H-17M
+Mean_return:2.22 Frame:73.74 M  Time_used 71H-20M Time_togo 122H-9M
+Mean_return:2.22 Frame:73.85 M  Time_used 71H-25M Time_togo 122H-0M
+Mean_return:2.54 Frame:73.97 M  Time_used 71H-31M Time_togo 121H-50M
+------------------------------------------------------------
+Num steps: 18500000  return: 802.5
+------------------------------------------------------------
+Mean_return:2.19 Frame:74.08 M  Time_used 71H-45M Time_togo 121H-57M
+Mean_return:2.24 Frame:74.20 M  Time_used 71H-50M Time_togo 121H-48M
+Mean_return:2.26 Frame:74.32 M  Time_used 71H-56M Time_togo 121H-39M
+Mean_return:2.14 Frame:74.43 M  Time_used 72H-1M Time_togo 121H-30M
+Mean_return:2.3 Frame:74.54 M  Time_used 72H-6M Time_togo 121H-21M
+Mean_return:2.38 Frame:74.66 M  Time_used 72H-12M Time_togo 121H-13M
+Mean_return:2.35 Frame:74.77 M  Time_used 72H-17M Time_togo 121H-5M
+Mean_return:2.48 Frame:74.88 M  Time_used 72H-22M Time_togo 120H-56M
+Mean_return:2.42 Frame:75.00 M  Time_used 72H-28M Time_togo 120H-47M
+------------------------------------------------------------
+Num steps: 18750000  return: 703.4
+------------------------------------------------------------
+Mean_return:2.36 Frame:75.11 M  Time_used 72H-42M Time_togo 120H-53M
+Mean_return:2.06 Frame:75.22 M  Time_used 72H-47M Time_togo 120H-45M
+Mean_return:2.21 Frame:75.33 M  Time_used 72H-53M Time_togo 120H-37M
+Mean_return:2.23 Frame:75.44 M  Time_used 72H-58M Time_togo 120H-28M
+Mean_return:2.4 Frame:75.56 M  Time_used 73H-3M Time_togo 120H-20M
+Mean_return:2.34 Frame:75.68 M  Time_used 73H-9M Time_togo 120H-11M
+Mean_return:2.47 Frame:75.80 M  Time_used 73H-14M Time_togo 120H-1M
+Mean_return:2.12 Frame:75.91 M  Time_used 73H-20M Time_togo 119H-53M
+------------------------------------------------------------
+Num steps: 19000000  return: 617.5
+------------------------------------------------------------
+Mean_return:2.33 Frame:76.03 M  Time_used 73H-35M Time_togo 119H-59M
+Mean_return:2.16 Frame:76.14 M  Time_used 73H-40M Time_togo 119H-50M
+Mean_return:1.96 Frame:76.25 M  Time_used 73H-45M Time_togo 119H-42M
+Mean_return:1.98 Frame:76.36 M  Time_used 73H-50M Time_togo 119H-34M
+Mean_return:2.15 Frame:76.47 M  Time_used 73H-55M Time_togo 119H-25M
+Mean_return:1.88 Frame:76.57 M  Time_used 74H-0M Time_togo 119H-17M
+Mean_return:2.08 Frame:76.69 M  Time_used 74H-5M Time_togo 119H-9M
+Mean_return:2.09 Frame:76.80 M  Time_used 74H-11M Time_togo 119H-0M
+Mean_return:2.17 Frame:76.91 M  Time_used 74H-16M Time_togo 118H-52M
+------------------------------------------------------------
+Num steps: 19250000  return: 678.4
+------------------------------------------------------------
+Mean_return:2.44 Frame:77.02 M  Time_used 74H-30M Time_togo 118H-58M
+Mean_return:2.27 Frame:77.13 M  Time_used 74H-35M Time_togo 118H-49M
+Mean_return:2.15 Frame:77.25 M  Time_used 74H-41M Time_togo 118H-41M
+Mean_return:2.16 Frame:77.35 M  Time_used 74H-46M Time_togo 118H-33M
+Mean_return:2.56 Frame:77.48 M  Time_used 74H-52M Time_togo 118H-24M
+Mean_return:2.19 Frame:77.59 M  Time_used 74H-57M Time_togo 118H-16M
+Mean_return:2.23 Frame:77.70 M  Time_used 75H-2M Time_togo 118H-7M
+Mean_return:2.11 Frame:77.81 M  Time_used 75H-8M Time_togo 117H-59M
+Mean_return:2.06 Frame:77.92 M  Time_used 75H-13M Time_togo 117H-50M
+------------------------------------------------------------
+Num steps: 19500000  return: 713.5
+------------------------------------------------------------
+Mean_return:2.09 Frame:78.04 M  Time_used 75H-27M Time_togo 117H-56M
+Mean_return:2.55 Frame:78.16 M  Time_used 75H-33M Time_togo 117H-47M
+Mean_return:2.12 Frame:78.27 M  Time_used 75H-38M Time_togo 117H-39M
+Mean_return:2.13 Frame:78.38 M  Time_used 75H-43M Time_togo 117H-31M
+Mean_return:2.41 Frame:78.50 M  Time_used 75H-49M Time_togo 117H-21M
+Mean_return:1.86 Frame:78.60 M  Time_used 75H-54M Time_togo 117H-14M
+Mean_return:2.22 Frame:78.72 M  Time_used 76H-0M Time_togo 117H-6M
+Mean_return:2.46 Frame:78.83 M  Time_used 76H-5M Time_togo 116H-58M
+Mean_return:2.15 Frame:78.95 M  Time_used 76H-11M Time_togo 116H-49M
+------------------------------------------------------------
+Num steps: 19750000  return: 526.1
+------------------------------------------------------------
+Mean_return:2.33 Frame:79.06 M  Time_used 76H-26M Time_togo 116H-55M
+Mean_return:2.05 Frame:79.17 M  Time_used 76H-31M Time_togo 116H-46M
+Mean_return:2.27 Frame:79.29 M  Time_used 76H-37M Time_togo 116H-38M
+Mean_return:2.2 Frame:79.41 M  Time_used 76H-42M Time_togo 116H-29M
+Mean_return:2.39 Frame:79.53 M  Time_used 76H-48M Time_togo 116H-21M
+Mean_return:2.31 Frame:79.64 M  Time_used 76H-53M Time_togo 116H-12M
+Mean_return:2.19 Frame:79.76 M  Time_used 76H-59M Time_togo 116H-3M
+Mean_return:2.32 Frame:79.87 M  Time_used 77H-4M Time_togo 115H-55M
+Mean_return:2.47 Frame:79.99 M  Time_used 77H-10M Time_togo 115H-46M
+------------------------------------------------------------
+Num steps: 20000000  return: 799.1
+------------------------------------------------------------
+Mean_return:2.53 Frame:80.11 M  Time_used 77H-24M Time_togo 115H-51M
+Mean_return:2.05 Frame:80.23 M  Time_used 77H-30M Time_togo 115H-42M
+Mean_return:2.15 Frame:80.34 M  Time_used 77H-35M Time_togo 115H-35M
+Mean_return:2.11 Frame:80.44 M  Time_used 77H-41M Time_togo 115H-27M
+Mean_return:2.48 Frame:80.56 M  Time_used 77H-46M Time_togo 115H-19M
+Mean_return:2.43 Frame:80.67 M  Time_used 77H-52M Time_togo 115H-10M
+Mean_return:2.25 Frame:80.79 M  Time_used 77H-57M Time_togo 115H-2M
+Mean_return:2.15 Frame:80.91 M  Time_used 78H-3M Time_togo 114H-54M
+------------------------------------------------------------
+Num steps: 20250000  return: 660.5
+------------------------------------------------------------
+Mean_return:1.93 Frame:81.01 M  Time_used 78H-17M Time_togo 114H-59M
+Mean_return:2.2 Frame:81.12 M  Time_used 78H-22M Time_togo 114H-51M
+Mean_return:2.56 Frame:81.23 M  Time_used 78H-27M Time_togo 114H-43M
+Mean_return:2.26 Frame:81.35 M  Time_used 78H-33M Time_togo 114H-34M
+Mean_return:2.26 Frame:81.46 M  Time_used 78H-38M Time_togo 114H-26M
+Mean_return:2.23 Frame:81.57 M  Time_used 78H-44M Time_togo 114H-18M
+Mean_return:2.36 Frame:81.69 M  Time_used 78H-49M Time_togo 114H-9M
+Mean_return:2.21 Frame:81.81 M  Time_used 78H-55M Time_togo 114H-1M
+Mean_return:2.23 Frame:81.92 M  Time_used 79H-0M Time_togo 113H-53M
+------------------------------------------------------------
+Num steps: 20500000  return: 944.3
+------------------------------------------------------------
+Mean_return:2.16 Frame:82.03 M  Time_used 79H-14M Time_togo 113H-57M
+Mean_return:2.25 Frame:82.15 M  Time_used 79H-20M Time_togo 113H-48M
+Mean_return:2.28 Frame:82.27 M  Time_used 79H-26M Time_togo 113H-40M
+Mean_return:2.35 Frame:82.39 M  Time_used 79H-31M Time_togo 113H-32M
+Mean_return:2.26 Frame:82.50 M  Time_used 79H-37M Time_togo 113H-24M
+Mean_return:2.31 Frame:82.61 M  Time_used 79H-42M Time_togo 113H-16M
+Mean_return:2.16 Frame:82.72 M  Time_used 79H-48M Time_togo 113H-8M
+Mean_return:2.14 Frame:82.84 M  Time_used 79H-53M Time_togo 112H-59M
+Mean_return:2.15 Frame:82.95 M  Time_used 79H-58M Time_togo 112H-51M
+------------------------------------------------------------
+Num steps: 20750000  return: 670.2
+------------------------------------------------------------
+Mean_return:2.16 Frame:83.06 M  Time_used 80H-13M Time_togo 112H-56M
+Mean_return:1.95 Frame:83.17 M  Time_used 80H-18M Time_togo 112H-48M
+Mean_return:2.28 Frame:83.29 M  Time_used 80H-24M Time_togo 112H-39M
+Mean_return:2.29 Frame:83.40 M  Time_used 80H-29M Time_togo 112H-31M
+Mean_return:2.23 Frame:83.52 M  Time_used 80H-34M Time_togo 112H-22M
+Mean_return:2.28 Frame:83.64 M  Time_used 80H-40M Time_togo 112H-14M
+Mean_return:2.29 Frame:83.76 M  Time_used 80H-46M Time_togo 112H-5M
+Mean_return:2.2 Frame:83.88 M  Time_used 80H-52M Time_togo 111H-56M
+Mean_return:2.37 Frame:84.00 M  Time_used 80H-57M Time_togo 111H-48M
+------------------------------------------------------------
+Num steps: 21000000  return: 701.6
+------------------------------------------------------------
+Mean_return:1.96 Frame:84.11 M  Time_used 81H-11M Time_togo 111H-53M
+Mean_return:2.2 Frame:84.23 M  Time_used 81H-17M Time_togo 111H-44M
+Mean_return:2.02 Frame:84.34 M  Time_used 81H-23M Time_togo 111H-36M
+Mean_return:2.3 Frame:84.46 M  Time_used 81H-28M Time_togo 111H-28M
+Mean_return:2.26 Frame:84.58 M  Time_used 81H-34M Time_togo 111H-19M
+Mean_return:2.07 Frame:84.70 M  Time_used 81H-40M Time_togo 111H-10M
+Mean_return:2.07 Frame:84.81 M  Time_used 81H-45M Time_togo 111H-2M
+Mean_return:2.07 Frame:84.92 M  Time_used 81H-50M Time_togo 110H-54M
+------------------------------------------------------------
+Num steps: 21250000  return: 760.3
+------------------------------------------------------------
+Mean_return:2.21 Frame:85.03 M  Time_used 82H-5M Time_togo 110H-58M
+Mean_return:2.06 Frame:85.15 M  Time_used 82H-10M Time_togo 110H-50M
+Mean_return:2.33 Frame:85.27 M  Time_used 82H-16M Time_togo 110H-41M
+Mean_return:2.2 Frame:85.38 M  Time_used 82H-21M Time_togo 110H-33M
+Mean_return:2.09 Frame:85.49 M  Time_used 82H-26M Time_togo 110H-25M
+Mean_return:2.15 Frame:85.61 M  Time_used 82H-32M Time_togo 110H-17M
+Mean_return:2.34 Frame:85.72 M  Time_used 82H-37M Time_togo 110H-8M
+Mean_return:2.04 Frame:85.83 M  Time_used 82H-42M Time_togo 110H-0M
+Mean_return:2.37 Frame:85.95 M  Time_used 82H-48M Time_togo 109H-52M
+------------------------------------------------------------
+Num steps: 21500000  return: 621.8
+------------------------------------------------------------
+Mean_return:2.19 Frame:86.07 M  Time_used 83H-2M Time_togo 109H-55M
+Mean_return:2.19 Frame:86.18 M  Time_used 83H-8M Time_togo 109H-47M
+Mean_return:2.24 Frame:86.30 M  Time_used 83H-13M Time_togo 109H-39M
+Mean_return:2.24 Frame:86.41 M  Time_used 83H-18M Time_togo 109H-30M
+Mean_return:2.22 Frame:86.52 M  Time_used 83H-23M Time_togo 109H-22M
+Mean_return:2.49 Frame:86.64 M  Time_used 83H-29M Time_togo 109H-14M
+Mean_return:2.42 Frame:86.75 M  Time_used 83H-34M Time_togo 109H-6M
+Mean_return:2.09 Frame:86.86 M  Time_used 83H-40M Time_togo 108H-58M
+Mean_return:2.32 Frame:86.98 M  Time_used 83H-45M Time_togo 108H-50M
+------------------------------------------------------------
+Num steps: 21750000  return: 1066.1
+------------------------------------------------------------
+Mean_return:2.34 Frame:87.10 M  Time_used 84H-0M Time_togo 108H-52M
+Mean_return:2.15 Frame:87.21 M  Time_used 84H-5M Time_togo 108H-45M
+Mean_return:2.33 Frame:87.32 M  Time_used 84H-10M Time_togo 108H-36M
+Mean_return:2.45 Frame:87.44 M  Time_used 84H-16M Time_togo 108H-28M
+Mean_return:2.0 Frame:87.55 M  Time_used 84H-21M Time_togo 108H-20M
+Mean_return:2.17 Frame:87.67 M  Time_used 84H-26M Time_togo 108H-12M
+Mean_return:2.27 Frame:87.78 M  Time_used 84H-31M Time_togo 108H-4M
+Mean_return:2.31 Frame:87.89 M  Time_used 84H-37M Time_togo 107H-56M
+------------------------------------------------------------
+Num steps: 22000000  return: 685.8
+------------------------------------------------------------
+Mean_return:2.44 Frame:88.01 M  Time_used 84H-51M Time_togo 107H-59M
+Mean_return:2.18 Frame:88.12 M  Time_used 84H-56M Time_togo 107H-50M
+Mean_return:2.36 Frame:88.24 M  Time_used 85H-2M Time_togo 107H-42M
+Mean_return:2.21 Frame:88.37 M  Time_used 85H-8M Time_togo 107H-33M
+Mean_return:2.7 Frame:88.51 M  Time_used 85H-14M Time_togo 107H-22M
+Mean_return:2.3 Frame:88.63 M  Time_used 85H-20M Time_togo 107H-14M
+Mean_return:2.35 Frame:88.75 M  Time_used 85H-25M Time_togo 107H-5M
+Mean_return:2.4 Frame:88.87 M  Time_used 85H-31M Time_togo 106H-56M
+Mean_return:2.35 Frame:88.99 M  Time_used 85H-37M Time_togo 106H-47M
+------------------------------------------------------------
+Num steps: 22250000  return: 645.2
+------------------------------------------------------------
+Mean_return:2.26 Frame:89.12 M  Time_used 85H-51M Time_togo 106H-49M
+Mean_return:2.18 Frame:89.24 M  Time_used 85H-57M Time_togo 106H-41M
+Mean_return:2.26 Frame:89.35 M  Time_used 86H-2M Time_togo 106H-33M
+Mean_return:2.26 Frame:89.48 M  Time_used 86H-8M Time_togo 106H-24M
+Mean_return:2.29 Frame:89.59 M  Time_used 86H-13M Time_togo 106H-15M
+Mean_return:2.15 Frame:89.70 M  Time_used 86H-18M Time_togo 106H-8M
+Mean_return:2.31 Frame:89.82 M  Time_used 86H-24M Time_togo 105H-59M
+Mean_return:2.38 Frame:89.94 M  Time_used 86H-29M Time_togo 105H-51M
+------------------------------------------------------------
+Num steps: 22500000  return: 563.3
+------------------------------------------------------------
+Mean_return:2.28 Frame:90.05 M  Time_used 86H-43M Time_togo 105H-54M
+Mean_return:2.07 Frame:90.16 M  Time_used 86H-49M Time_togo 105H-46M
+Mean_return:2.1 Frame:90.28 M  Time_used 86H-54M Time_togo 105H-37M
+Mean_return:2.12 Frame:90.39 M  Time_used 86H-59M Time_togo 105H-29M
+Mean_return:2.22 Frame:90.51 M  Time_used 87H-5M Time_togo 105H-20M
+Mean_return:2.61 Frame:90.64 M  Time_used 87H-11M Time_togo 105H-11M
+Mean_return:2.34 Frame:90.76 M  Time_used 87H-16M Time_togo 105H-2M
+Mean_return:2.24 Frame:90.88 M  Time_used 87H-22M Time_togo 104H-54M
+------------------------------------------------------------
+Num steps: 22750000  return: 1041.5
+------------------------------------------------------------
+Mean_return:2.62 Frame:91.02 M  Time_used 87H-37M Time_togo 104H-55M
+Mean_return:2.39 Frame:91.14 M  Time_used 87H-43M Time_togo 104H-46M
+Mean_return:2.32 Frame:91.26 M  Time_used 87H-49M Time_togo 104H-37M
+Mean_return:2.21 Frame:91.39 M  Time_used 87H-54M Time_togo 104H-28M
+Mean_return:2.34 Frame:91.51 M  Time_used 88H-0M Time_togo 104H-20M
+Mean_return:2.29 Frame:91.63 M  Time_used 88H-6M Time_togo 104H-11M
+Mean_return:2.2 Frame:91.75 M  Time_used 88H-11M Time_togo 104H-3M
+Mean_return:2.26 Frame:91.87 M  Time_used 88H-17M Time_togo 103H-54M
+Mean_return:2.33 Frame:91.99 M  Time_used 88H-22M Time_togo 103H-46M
+------------------------------------------------------------
+Num steps: 23000000  return: 578.9
+------------------------------------------------------------
+Mean_return:2.44 Frame:92.11 M  Time_used 88H-37M Time_togo 103H-48M
+Mean_return:2.3 Frame:92.24 M  Time_used 88H-43M Time_togo 103H-39M
+Mean_return:2.54 Frame:92.37 M  Time_used 88H-49M Time_togo 103H-29M
+Mean_return:2.23 Frame:92.49 M  Time_used 88H-55M Time_togo 103H-22M
+Mean_return:2.61 Frame:92.61 M  Time_used 89H-1M Time_togo 103H-14M
+Mean_return:2.15 Frame:92.72 M  Time_used 89H-6M Time_togo 103H-6M
+Mean_return:2.24 Frame:92.84 M  Time_used 89H-12M Time_togo 102H-58M
+Mean_return:2.23 Frame:92.96 M  Time_used 89H-18M Time_togo 102H-50M
+------------------------------------------------------------
+Num steps: 23250000  return: 706.2
+------------------------------------------------------------
+Mean_return:2.39 Frame:93.08 M  Time_used 89H-32M Time_togo 102H-52M
+Mean_return:2.12 Frame:93.20 M  Time_used 89H-38M Time_togo 102H-43M
+Mean_return:2.31 Frame:93.32 M  Time_used 89H-44M Time_togo 102H-35M
+Mean_return:2.27 Frame:93.45 M  Time_used 89H-50M Time_togo 102H-26M
+Mean_return:2.24 Frame:93.56 M  Time_used 89H-55M Time_togo 102H-18M
+Mean_return:2.19 Frame:93.68 M  Time_used 90H-1M Time_togo 102H-10M
+Mean_return:2.53 Frame:93.80 M  Time_used 90H-7M Time_togo 102H-1M
+Mean_return:2.17 Frame:93.92 M  Time_used 90H-12M Time_togo 101H-53M
+------------------------------------------------------------
+Num steps: 23500000  return: 705.7
+------------------------------------------------------------
+Mean_return:2.18 Frame:94.03 M  Time_used 90H-27M Time_togo 101H-55M
+Mean_return:2.33 Frame:94.16 M  Time_used 90H-33M Time_togo 101H-46M
+Mean_return:2.49 Frame:94.29 M  Time_used 90H-39M Time_togo 101H-37M
+Mean_return:2.22 Frame:94.41 M  Time_used 90H-45M Time_togo 101H-29M
+Mean_return:2.29 Frame:94.53 M  Time_used 90H-50M Time_togo 101H-21M
+Mean_return:2.16 Frame:94.65 M  Time_used 90H-56M Time_togo 101H-13M
+Mean_return:2.17 Frame:94.76 M  Time_used 91H-1M Time_togo 101H-5M
+Mean_return:2.05 Frame:94.88 M  Time_used 91H-7M Time_togo 100H-57M
+Mean_return:2.0 Frame:94.99 M  Time_used 91H-12M Time_togo 100H-49M
+------------------------------------------------------------
+Num steps: 23750000  return: 1312.3
+------------------------------------------------------------
+Mean_return:2.12 Frame:95.10 M  Time_used 91H-26M Time_togo 100H-51M
+Mean_return:2.39 Frame:95.23 M  Time_used 91H-32M Time_togo 100H-43M
+Mean_return:2.21 Frame:95.34 M  Time_used 91H-38M Time_togo 100H-35M
+Mean_return:2.29 Frame:95.47 M  Time_used 91H-44M Time_togo 100H-26M
+Mean_return:2.24 Frame:95.59 M  Time_used 91H-49M Time_togo 100H-18M
+Mean_return:2.13 Frame:95.71 M  Time_used 91H-55M Time_togo 100H-9M
+Mean_return:2.54 Frame:95.85 M  Time_used 92H-1M Time_togo 100H-0M
+Mean_return:2.23 Frame:95.96 M  Time_used 92H-7M Time_togo 99H-52M
+------------------------------------------------------------
+Num steps: 24000000  return: 536.8
+------------------------------------------------------------
+Mean_return:2.25 Frame:96.09 M  Time_used 92H-21M Time_togo 99H-53M
+Mean_return:2.33 Frame:96.21 M  Time_used 92H-27M Time_togo 99H-44M
+Mean_return:2.16 Frame:96.33 M  Time_used 92H-33M Time_togo 99H-36M
+Mean_return:2.43 Frame:96.45 M  Time_used 92H-38M Time_togo 99H-28M
+Mean_return:2.38 Frame:96.57 M  Time_used 92H-44M Time_togo 99H-19M
+Mean_return:2.38 Frame:96.70 M  Time_used 92H-50M Time_togo 99H-10M
+Mean_return:2.66 Frame:96.84 M  Time_used 92H-56M Time_togo 99H-0M
+Mean_return:2.21 Frame:96.96 M  Time_used 93H-2M Time_togo 98H-52M
+------------------------------------------------------------
+Num steps: 24250000  return: 784.4
+------------------------------------------------------------
+Mean_return:2.04 Frame:97.08 M  Time_used 93H-17M Time_togo 98H-53M
+Mean_return:2.28 Frame:97.20 M  Time_used 93H-22M Time_togo 98H-45M
+Mean_return:2.31 Frame:97.32 M  Time_used 93H-28M Time_togo 98H-36M
+Mean_return:2.39 Frame:97.45 M  Time_used 93H-34M Time_togo 98H-28M
+Mean_return:2.36 Frame:97.57 M  Time_used 93H-39M Time_togo 98H-19M
+Mean_return:2.52 Frame:97.69 M  Time_used 93H-45M Time_togo 98H-10M
+Mean_return:2.26 Frame:97.81 M  Time_used 93H-50M Time_togo 98H-2M
+Mean_return:2.32 Frame:97.93 M  Time_used 93H-56M Time_togo 97H-53M
+------------------------------------------------------------
+Num steps: 24500000  return: 664.2
+------------------------------------------------------------
+Mean_return:2.38 Frame:98.06 M  Time_used 94H-10M Time_togo 97H-54M
+Mean_return:2.25 Frame:98.18 M  Time_used 94H-16M Time_togo 97H-46M
+Mean_return:2.15 Frame:98.30 M  Time_used 94H-21M Time_togo 97H-37M
+Mean_return:2.23 Frame:98.41 M  Time_used 94H-26M Time_togo 97H-29M
+Mean_return:2.53 Frame:98.54 M  Time_used 94H-32M Time_togo 97H-20M
+Mean_return:2.31 Frame:98.65 M  Time_used 94H-37M Time_togo 97H-12M
+Mean_return:2.28 Frame:98.78 M  Time_used 94H-43M Time_togo 97H-4M
+Mean_return:2.2 Frame:98.90 M  Time_used 94H-49M Time_togo 96H-55M
+------------------------------------------------------------
+Num steps: 24750000  return: 1520.0
+------------------------------------------------------------
+Mean_return:2.42 Frame:99.02 M  Time_used 95H-3M Time_togo 96H-56M
+Mean_return:2.37 Frame:99.14 M  Time_used 95H-9M Time_togo 96H-48M
+Mean_return:2.32 Frame:99.26 M  Time_used 95H-14M Time_togo 96H-40M
+Mean_return:2.27 Frame:99.38 M  Time_used 95H-20M Time_togo 96H-31M
+Mean_return:2.21 Frame:99.50 M  Time_used 95H-25M Time_togo 96H-23M
+Mean_return:2.19 Frame:99.62 M  Time_used 95H-31M Time_togo 96H-14M
+Mean_return:2.58 Frame:99.75 M  Time_used 95H-37M Time_togo 96H-6M
+Mean_return:2.33 Frame:99.87 M  Time_used 95H-42M Time_togo 95H-57M
+Mean_return:2.29 Frame:99.99 M  Time_used 95H-48M Time_togo 95H-49M
+------------------------------------------------------------
+Num steps: 25000000  return: 709.3
+------------------------------------------------------------
+Mean_return:2.31 Frame:100.11 M  Time_used 96H-2M Time_togo 95H-50M
+Mean_return:2.18 Frame:100.22 M  Time_used 96H-7M Time_togo 95H-42M
+Mean_return:2.4 Frame:100.36 M  Time_used 96H-13M Time_togo 95H-33M
+Mean_return:2.34 Frame:100.49 M  Time_used 96H-20M Time_togo 95H-23M
+Mean_return:2.31 Frame:100.62 M  Time_used 96H-25M Time_togo 95H-14M
+Mean_return:2.37 Frame:100.74 M  Time_used 96H-31M Time_togo 95H-6M
+Mean_return:2.25 Frame:100.86 M  Time_used 96H-36M Time_togo 94H-58M
+Mean_return:2.21 Frame:100.98 M  Time_used 96H-42M Time_togo 94H-49M
+------------------------------------------------------------
+Num steps: 25250000  return: 612.2
+------------------------------------------------------------
+Mean_return:2.45 Frame:101.10 M  Time_used 96H-56M Time_togo 94H-50M
+Mean_return:2.38 Frame:101.22 M  Time_used 97H-2M Time_togo 94H-41M
+Mean_return:2.21 Frame:101.35 M  Time_used 97H-7M Time_togo 94H-33M
+Mean_return:2.04 Frame:101.47 M  Time_used 97H-13M Time_togo 94H-24M
+Mean_return:2.38 Frame:101.60 M  Time_used 97H-19M Time_togo 94H-15M
+Mean_return:2.56 Frame:101.73 M  Time_used 97H-25M Time_togo 94H-6M
+Mean_return:2.5 Frame:101.86 M  Time_used 97H-31M Time_togo 93H-57M
+Mean_return:2.22 Frame:101.99 M  Time_used 97H-37M Time_togo 93H-49M
+------------------------------------------------------------
+Num steps: 25500000  return: 669.6
+------------------------------------------------------------
+Mean_return:2.38 Frame:102.11 M  Time_used 97H-51M Time_togo 93H-49M
+Mean_return:2.36 Frame:102.24 M  Time_used 97H-57M Time_togo 93H-40M
+Mean_return:2.22 Frame:102.36 M  Time_used 98H-3M Time_togo 93H-32M
+Mean_return:2.37 Frame:102.49 M  Time_used 98H-9M Time_togo 93H-23M
+Mean_return:2.19 Frame:102.61 M  Time_used 98H-15M Time_togo 93H-15M
+Mean_return:2.09 Frame:102.73 M  Time_used 98H-20M Time_togo 93H-7M
+Mean_return:2.13 Frame:102.84 M  Time_used 98H-25M Time_togo 92H-59M
+Mean_return:2.42 Frame:102.96 M  Time_used 98H-31M Time_togo 92H-51M
+------------------------------------------------------------
+Num steps: 25750000  return: 1297.5
+------------------------------------------------------------
+Mean_return:2.27 Frame:103.08 M  Time_used 98H-46M Time_togo 92H-51M
+Mean_return:2.38 Frame:103.21 M  Time_used 98H-51M Time_togo 92H-42M
+Mean_return:2.37 Frame:103.32 M  Time_used 98H-57M Time_togo 92H-35M
+Mean_return:2.3 Frame:103.44 M  Time_used 99H-2M Time_togo 92H-27M
+Mean_return:2.46 Frame:103.56 M  Time_used 99H-7M Time_togo 92H-18M
+Mean_return:2.27 Frame:103.69 M  Time_used 99H-13M Time_togo 92H-9M
+Mean_return:2.16 Frame:103.81 M  Time_used 99H-18M Time_togo 92H-1M
+Mean_return:2.24 Frame:103.93 M  Time_used 99H-24M Time_togo 91H-53M
+------------------------------------------------------------
+Num steps: 26000000  return: 827.8
+------------------------------------------------------------
+Mean_return:2.42 Frame:104.06 M  Time_used 99H-39M Time_togo 91H-53M
+Mean_return:2.41 Frame:104.18 M  Time_used 99H-44M Time_togo 91H-45M
+Mean_return:2.27 Frame:104.31 M  Time_used 99H-51M Time_togo 91H-36M
+Mean_return:2.37 Frame:104.43 M  Time_used 99H-56M Time_togo 91H-27M
+Mean_return:2.41 Frame:104.56 M  Time_used 100H-2M Time_togo 91H-19M
+Mean_return:2.1 Frame:104.69 M  Time_used 100H-8M Time_togo 91H-10M
+Mean_return:2.11 Frame:104.81 M  Time_used 100H-14M Time_togo 91H-2M
+Mean_return:2.39 Frame:104.94 M  Time_used 100H-19M Time_togo 90H-53M
+------------------------------------------------------------
+Num steps: 26250000  return: 672.6
+------------------------------------------------------------
+Mean_return:2.41 Frame:105.06 M  Time_used 100H-34M Time_togo 90H-53M
+Mean_return:2.38 Frame:105.20 M  Time_used 100H-40M Time_togo 90H-43M
+Mean_return:2.28 Frame:105.32 M  Time_used 100H-46M Time_togo 90H-35M
+Mean_return:2.52 Frame:105.45 M  Time_used 100H-52M Time_togo 90H-26M
+Mean_return:2.28 Frame:105.58 M  Time_used 100H-57M Time_togo 90H-17M
+Mean_return:2.77 Frame:105.71 M  Time_used 101H-3M Time_togo 90H-8M
+Mean_return:2.11 Frame:105.82 M  Time_used 101H-8M Time_togo 90H-0M
+Mean_return:2.25 Frame:105.95 M  Time_used 101H-14M Time_togo 89H-52M
+------------------------------------------------------------
+Num steps: 26500000  return: 668.5
+------------------------------------------------------------
+Mean_return:2.13 Frame:106.07 M  Time_used 101H-29M Time_togo 89H-52M
+Mean_return:2.59 Frame:106.20 M  Time_used 101H-35M Time_togo 89H-43M
+Mean_return:2.54 Frame:106.33 M  Time_used 101H-40M Time_togo 89H-34M
+Mean_return:2.32 Frame:106.45 M  Time_used 101H-46M Time_togo 89H-26M
+Mean_return:2.53 Frame:106.58 M  Time_used 101H-52M Time_togo 89H-17M
+Mean_return:2.33 Frame:106.70 M  Time_used 101H-57M Time_togo 89H-9M
+Mean_return:2.41 Frame:106.82 M  Time_used 102H-3M Time_togo 89H-1M
+Mean_return:2.19 Frame:106.94 M  Time_used 102H-8M Time_togo 88H-53M
+------------------------------------------------------------
+Num steps: 26750000  return: 683.1
+------------------------------------------------------------
+Mean_return:2.32 Frame:107.07 M  Time_used 102H-23M Time_togo 88H-52M
+Mean_return:2.07 Frame:107.19 M  Time_used 102H-29M Time_togo 88H-44M
+Mean_return:2.44 Frame:107.31 M  Time_used 102H-34M Time_togo 88H-35M
+Mean_return:2.6 Frame:107.45 M  Time_used 102H-40M Time_togo 88H-26M
+Mean_return:2.32 Frame:107.57 M  Time_used 102H-46M Time_togo 88H-18M
+Mean_return:2.43 Frame:107.70 M  Time_used 102H-52M Time_togo 88H-9M
+Mean_return:2.54 Frame:107.83 M  Time_used 102H-58M Time_togo 88H-1M
+Mean_return:2.34 Frame:107.97 M  Time_used 103H-4M Time_togo 87H-52M
+------------------------------------------------------------
+Num steps: 27000000  return: 798.5
+------------------------------------------------------------
+Mean_return:2.27 Frame:108.09 M  Time_used 103H-19M Time_togo 87H-51M
+Mean_return:2.39 Frame:108.21 M  Time_used 103H-25M Time_togo 87H-43M
+Mean_return:2.48 Frame:108.34 M  Time_used 103H-31M Time_togo 87H-35M
+Mean_return:2.33 Frame:108.46 M  Time_used 103H-36M Time_togo 87H-27M
+Mean_return:2.45 Frame:108.58 M  Time_used 103H-42M Time_togo 87H-19M
+Mean_return:2.36 Frame:108.71 M  Time_used 103H-48M Time_togo 87H-10M
+Mean_return:2.49 Frame:108.83 M  Time_used 103H-54M Time_togo 87H-2M
+Mean_return:2.62 Frame:108.97 M  Time_used 104H-0M Time_togo 86H-53M
