@@ -18,7 +18,7 @@ class DEnetAgent(BaseAgent):
                  dueling_net=False, noisy_net=False,
                  log_interval=100, eval_interval=250000, num_eval_steps=125000,
                  max_episode_steps=27000, grad_cliping=None, cuda=True,
-                 seed=0,exploration=False):
+                 seed=0, network ="old", exploration=False):
         super(DEnetAgent, self).__init__(
             env, test_env, log_dir, num_steps, batch_size, memory_size,
             gamma, multi_step, update_interval, target_update_interval,
@@ -31,12 +31,12 @@ class DEnetAgent(BaseAgent):
         self.online_net = DEnet(
             num_channels=env.observation_space.shape[0],
             num_actions=self.num_actions, N=N, dueling_net=dueling_net,
-            noisy_net=noisy_net).to(self.device)
+            noisy_net=noisy_net, network = network).to(self.device)
         # Target network.
         self.target_net = DEnet(
             num_channels=env.observation_space.shape[0],
             num_actions=self.num_actions, N=N, dueling_net=dueling_net,
-            noisy_net=noisy_net).to(self.device).to(self.device)
+            noisy_net=noisy_net, network = network).to(self.device).to(self.device)
 
         # Copy parameters of the learning network to the target network.
         self.update_target()
@@ -61,7 +61,7 @@ class DEnetAgent(BaseAgent):
         states, actions, rewards, next_states, dones =\
             self.memory.sample(self.batch_size)
 
-        quantile_loss, mean_q = self.calculate_loss(
+        quantile_loss, mean_q , q75, q25= self.calculate_loss(
             states, actions, rewards, next_states, dones)
 
         update_params(
@@ -74,12 +74,17 @@ class DEnetAgent(BaseAgent):
                 'loss/quantile_loss', quantile_loss.detach().item(),
                 4*self.steps)
             self.writer.add_scalar('stats/mean_Q', mean_q, 4*self.steps)
+            self.writer.add_scalar("stats/75Q", q75, 4*self.steps)
+            self.writer.add_scalar("stats/25Q", q25, 4*self.steps)
 
     def calculate_loss(self, states, actions, rewards, next_states, dones):
 
         # Calculate quantile values of current states and actions at taus.
+        current = self.online_net(states=states)
+        # print("75th percentile (quantile):", torch.quantile(current, .75).item())
+        # print("25th percentile (quantile):", torch.quantile(current, .25).item())
         current_sa_quantiles = evaluate_quantile_at_action(
-            self.online_net(states=states),
+            current,
             actions)
         assert current_sa_quantiles.shape == (self.batch_size, self.N, 1)
 
@@ -106,12 +111,16 @@ class DEnetAgent(BaseAgent):
                 1.0 - dones[..., None]) * self.gamma_n * next_sa_quantiles
             assert target_sa_quantiles.shape == (self.batch_size, 1, self.N)
 
-        td_errors = target_sa_quantiles - current_sa_quantiles
+        td_errors = target_sa_quantiles - torch.flip(current_sa_quantiles, [-1])
+        # print("target_q",target_sa_quantiles[0])
+        # print("current_q",  torch.flip(current_sa_quantiles, [-1])[0].T)
+        # print("td_errors",td_errors[0,:,0])
+
         assert td_errors.shape == (self.batch_size, self.N, self.N)
-        print("target_q",target_sa_quantiles[0])
-        print("current_q", current_sa_quantiles[0].T)
+        #print("target_q",target_sa_quantiles[0])
+        #print("current_q", current_sa_quantiles[0].T)
 
         quantile_loss = calculate_quantile_huber_loss(td_errors, self.tau_hats, self.kappa)
-        print("quantile_loss",quantile_loss)
+        # print("quantile_loss",quantile_loss)
 
-        return quantile_loss, next_q.detach().mean().item()
+        return quantile_loss, next_q.detach().mean().item(), torch.quantile(next_sa_quantiles, .75).detach().item(), torch.quantile(next_sa_quantiles, .25).detach().item()

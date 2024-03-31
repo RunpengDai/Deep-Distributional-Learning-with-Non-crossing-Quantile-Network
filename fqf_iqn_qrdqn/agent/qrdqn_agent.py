@@ -108,10 +108,10 @@ class QRDQNAgent(BaseAgent):
 
         td_errors = target_sa_quantiles - current_sa_quantiles
         assert td_errors.shape == (self.batch_size, self.N, self.N)
-        print("target_q",target_sa_quantiles[0])
-        print("current_q", current_sa_quantiles[0].T)
+        #print("target_q",target_sa_quantiles[0])
+        #print("current_q", current_sa_quantiles[0].T)
         
         quantile_huber_loss = calculate_quantile_huber_loss(
             td_errors, self.tau_hats, self.kappa)
-
+        print("quantile_huber_loss",quantile_huber_loss)
         return quantile_huber_loss, next_q.detach().mean().item()

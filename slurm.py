@@ -5,11 +5,10 @@ NUM_GPU = 3
 
 
 model = ["ncQRDQN", "DEnet"]
-seed = [i for i in range(4)]
-env = ["JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4"]
+seed = [i for i in range(5)]
+env = ["YarsRevengeNoFrameskip-v4"]
 
-num = len(model) * len(seed) * len(env)
-
+# "JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4", 
 
 ### Empty the run folder
 shutil.rmtree("run/")
@@ -18,11 +17,22 @@ os.mkdir("run/")
 ### Create the single job file
 command_names = []
 for agent in model:
-    for env_id in env:
-        for rand in seed:
-            out_name = f"{agent}-{env_id}-{rand}.out"
-            command_name = "python -u train.py --cuda --model {} --env_id {} --seed {} > run/out/{}".format(agent, env_id, rand, out_name)
-            command_names.append(command_name)     
+    if agent == "DEnet":
+        network = ["old", "new"]
+        interval = [10000, 1000]
+        for net in network:
+            for inte in interval:
+                for env_id in env:
+                    for rand in seed:
+                        out_name = f"{agent}-{env_id}-{net}-{rand}.out"
+                        command_name = "python -u train.py --cuda --model {} --env_id {} --interval {} --network {} --seed {} > run/out/{}".format(agent, env_id, inte, net, rand, out_name)
+                        command_names.append(command_name)
+    else:
+        for env_id in env:
+            for rand in seed:
+                out_name = f"{agent}-{env_id}-{rand}.out"
+                command_name = "python -u train.py --cuda --model {} --env_id {} --seed {} > run/out/{}".format(agent, env_id, rand, out_name)
+                command_names.append(command_name)     
 
 ### Create the sbatch files
 GPU_lists = split_list(command_names, NUM_GPU)                
@@ -36,7 +46,7 @@ for i in range(0, NUM_GPU):
 #SBATCH -n {num_tasks}
 #SBATCH -t 11-00:00:00
 #SBATCH -p htzhulab
-#SBATCH --mem 80g
+#SBATCH --mem 160g
 #SBATCH --qos gpu_access
 #SBATCH --gres=gpu:1
 #SBATCH -o out/GPU{i}.out

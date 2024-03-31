@@ -6,13 +6,14 @@ from datetime import datetime
 from fqf_iqn_qrdqn.env import make_pytorch_env
 from fqf_iqn_qrdqn.agent import DEnetAgent
 from fqf_iqn_qrdqn.agent import ncQRDQNAgent
+from fqf_iqn_qrdqn.agent import QRDQNAgent
 import tensorboard
 agent_dict = {"QRDQN": "QRDQNAgent", "ncQRDQN": "ncQRDQNAgent", "DEnet": "DEnetAgent"}
 
 def run(args):
     with open(args.config) as f:
         config = yaml.load(f, Loader=yaml.SafeLoader)
-
+    config["target_update_interval"] = args.interval
     # Create environments.
     env = make_pytorch_env(args.env_id)
     test_env = make_pytorch_env(
@@ -26,6 +27,12 @@ def run(args):
     agent = eval(agent_dict[args.model])(
         env=env, test_env=test_env, log_dir=log_dir, seed=args.seed,
         cuda=args.cuda, **config)
+    if args.model == "DEnet":
+        log_dir = os.path.join(
+            'logs', args.env_id, f'{args.model}{args.interval}{args.network}-{args.seed}')
+        agent = eval(agent_dict[args.model])(
+        env=env, test_env=test_env, log_dir=log_dir, seed=args.seed,
+        cuda=args.cuda, network = args.network, **config)
     agent.run()
 
 
@@ -37,6 +44,8 @@ if __name__ == '__main__':
     parser.add_argument('--env_id', type=str, default='PongNoFrameskip-v4')
     parser.add_argument('--cuda', action='store_true')
     parser.add_argument('--seed', type=int, default=0)
+    parser.add_argument('--interval', type=int, default=10000)
+    parser.add_argument('--network', type=str, default="old")
     args = parser.parse_args()
     print(args)
     run(args)

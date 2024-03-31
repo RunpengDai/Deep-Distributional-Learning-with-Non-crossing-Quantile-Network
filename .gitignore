@@ -2,3 +2,6 @@ logs/
 *.zip
 .ipynb_checkpoints/
 __pycache__
+run/
+*.out
+*.log

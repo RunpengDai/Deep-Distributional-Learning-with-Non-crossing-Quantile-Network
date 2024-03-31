@@ -61,7 +61,7 @@ class ncQRDQNAgent(BaseAgent):
         states, actions, rewards, next_states, dones =\
             self.memory.sample(self.batch_size)
 
-        quantile_loss, mean_q = self.calculate_loss(
+        quantile_loss, mean_q , q75, q25= self.calculate_loss(
             states, actions, rewards, next_states, dones)
 
         update_params(
@@ -74,6 +74,8 @@ class ncQRDQNAgent(BaseAgent):
                 'loss/quantile_loss', quantile_loss.detach().item(),
                 4*self.steps)
             self.writer.add_scalar('stats/mean_Q', mean_q, 4*self.steps)
+            self.writer.add_scalar("stats/75Q", q75, 4*self.steps)
+            self.writer.add_scalar("stats/25Q", q25, 4*self.steps)
 
     def calculate_loss(self, states, actions, rewards, next_states, dones):
 
@@ -89,7 +91,6 @@ class ncQRDQNAgent(BaseAgent):
                 next_q = self.online_net.calculate_q(states=next_states)
             else:
                 next_q = self.target_net.calculate_q(states=next_states)
-
             # Calculate greedy actions.
             next_actions = torch.argmax(next_q, dim=1, keepdim=True)
             assert next_actions.shape == (self.batch_size, 1)
@@ -107,6 +108,10 @@ class ncQRDQNAgent(BaseAgent):
             assert target_sa_quantiles.shape == (self.batch_size, 1, self.N)
 
         td_errors = target_sa_quantiles - current_sa_quantiles
+        # print("target_q", target_sa_quantiles[0])
+        # print("current_q", current_sa_quantiles[0].T)
+        # print("td_errors", td_errors[0,:,0])
+        
         assert td_errors.shape == (self.batch_size, self.N, self.N)
         # print("target_q",target_sa_quantiles[0])
         # print("current_q", current_sa_quantiles[0].T)
@@ -115,4 +120,4 @@ class ncQRDQNAgent(BaseAgent):
         quantile_huber_loss = calculate_quantile_huber_loss(
             td_errors, self.tau_hats, self.kappa)
         # print("quantile_loss",quantile_huber_loss)
-        return quantile_huber_loss, next_q.detach().mean().item()
+        return quantile_huber_loss, next_q.detach().mean().item(), torch.quantile(next_sa_quantiles, .75).detach().item(), torch.quantile(next_sa_quantiles, .25).detach().item()

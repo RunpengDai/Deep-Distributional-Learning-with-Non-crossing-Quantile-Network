@@ -3,9 +3,10 @@ from matplotlib import pyplot as plt
 import os
 import pickle
 from util import split_list
-
-model = ["DEnet", "ncQRDQN"]
-envs = os.listdir("logs/")
+#, "DEnet1000new", "DEnet1000old", "DEnet10000old",
+model = ["ncQRDQN", "DEnet1000old", "DEnet1000new", "DEnet10000new", "DEnet10000old"]
+colors = ["darkgreen", "magenta", "limegreen", "blue", "orange"]
+envs = ["YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"] #os.listdir("logs/")
 env_list = split_list(envs, 3)
 height = len(envs) // 3 + 1
 
@@ -13,6 +14,7 @@ fig = plt.figure(figsize=(20, 5*height))
 
 def get_CI(data):
     data = [sub for sub in data if sub]
+    assert len(data) > 0
     lenth = min([len(d) for d in data])
     data  = np.array([d[:lenth] for d in data])
     mean = np.mean(data, axis=0)
@@ -22,8 +24,9 @@ def get_CI(data):
 def process_line(env,model):
     base_dir  = "logs/" + env
     data = []
-    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model in dir]
-    #print(dirs)
+    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model+"-" in dir]
+    if len(dirs) == 0:
+        return None, None
     for dir in dirs:
         try:
             summary = pickle.load(open(dir+'/summary/return.pkl', 'rb'))
@@ -38,16 +41,15 @@ def process_line(env,model):
 for col, env_l in enumerate(env_list):
     for row, env in enumerate(env_l):
         ax = fig.add_subplot(height, 3, row*3+col+1)
-        mean_base, std_base = process_line(env, model[1])
-        mean_deep, std_deep = process_line(env, model[0])
-        x_base = np.arange(len(mean_base))
-        x_deep = np.arange(len(mean_deep))
-        #print(mean_base, mean_deep)
-        ax.plot(x_base, mean_base, color='magenta', markerfacecolor='none', marker='o', markersize =5,label = "ncQRDQN")
-        ax.fill_between(x_base, mean_base - std_base, mean_base + std_base, color='magenta', alpha=0.2)
+        for idx, mode in enumerate(model):
+            mean, std = process_line(env, mode)
+            print(env, mode)
 
-        ax.plot(x_deep, mean_deep, color='limegreen', markerfacecolor='none', marker='o', markersize =5,label = "DEnet")
-        ax.fill_between(x_deep, mean_deep - std_deep, mean_deep + std_deep, color='limegreen', alpha=0.2)
+            if mean is None:
+                continue
+            x = np.arange(len(mean))
+            ax.plot(x, mean, color = colors[idx], markerfacecolor='none', markersize =5,marker = "o", label = mode)
+            ax.fill_between(x, mean - std, mean + std, color = colors[idx], alpha=0.2)
         ax.set_title(env)
 
 fig.legend()

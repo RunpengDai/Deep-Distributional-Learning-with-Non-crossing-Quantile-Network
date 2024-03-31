@@ -6,21 +6,32 @@ import time
 import torch.nn.functional as F
 from fqf_iqn_qrdqn.network import DQNBase, NoisyLinear
 
-
 class DEnet(nn.Module):
 
     def __init__(self, num_channels, num_actions, N=200, embedding_dim=7*7*64,
-                 dueling_net=False, noisy_net=False):
+                 dueling_net=False, noisy_net=False, network = "old"):
         super(DEnet, self).__init__()
         linear = NoisyLinear if noisy_net else nn.Linear
+        self.network = network
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")
 
         # Feature extractor of DQN.
         self.dqn_net = DQNBase(num_channels=num_channels)
         # Quantile network.
+            
         if not dueling_net:
-            self.q_net = linear(512, num_actions * N)
+            if network == "new":
+                self.q_net = nn.Sequential(
+                    linear(embedding_dim, 512),
+                    nn.ReLU(),
+                    linear(512, num_actions * N),
+                )
+                for module in self.q_net.modules():
+                    if isinstance(module, nn.Linear):
+                        nn.init.zeros_(module.weight)
+            else:
+                self.q_net = linear(512, num_actions * N)
         else:
             self.advantage_net = nn.Sequential(
                 linear(embedding_dim, 512),
@@ -35,8 +46,15 @@ class DEnet(nn.Module):
         self.embed_net = nn.Sequential(
                 linear(embedding_dim, 512),
                 nn.ReLU())
+        
+        if network == "new":
+            self.vnet = nn.Sequential(
+                linear(embedding_dim, 512),
+                nn.ReLU(),
+                linear(512, 1*num_actions))
+        else:
+            self.vnet = linear(512, 1*num_actions)
 
-        self.vnet = linear(512, 1*num_actions)
 
         self.N = N
         self.num_channels = num_channels
@@ -55,8 +73,14 @@ class DEnet(nn.Module):
 
         embed = self.embed_net(state_embeddings)
         if not self.dueling_net:
-            quantiles = self.q_net(
-                embed).view(batch_size, self.N, self.num_actions)
+            if self.network == "new":
+                quantiles = self.q_net(
+                    state_embeddings).view(batch_size, self.N, self.num_actions)
+            else:
+                quantiles = self.q_net(
+                    embed).view(batch_size, self.N, self.num_actions)
+
+
         else:
             advantages = self.advantage_net(
                 state_embeddings).view(batch_size, self.N, self.num_actions)
@@ -65,32 +89,19 @@ class DEnet(nn.Module):
             quantiles = baselines + advantages\
                 - advantages.mean(dim=2, keepdim=True)
 
+        # (batch_size, self.N, self.num_actions)
         sigma = F.elu(quantiles) + 1
-
         assert sigma.shape == (batch_size, self.N, self.num_actions)
 
-        Ks = torch.flip(torch.arange(1, self.N+1), [0]).view(1,self.N,1).repeat(batch_size,1,self.num_actions).to(self.device)
 
-        assert Ks.shape == (batch_size, self.N, self.num_actions)
-
-        gbar = (Ks*sigma).sum(dim = 1, keepdim = True) / self.N
-
-        value = self.vnet(embed).view(batch_size, 1, self.num_actions)
+        if self.network == "new":
+            value = self.vnet(state_embeddings).view(batch_size, 1, self.num_actions)
+        else:
+            value = self.vnet(embed).view(batch_size, 1, self.num_actions)
 
         accu = torch.cumsum(sigma, dim=1)
 
-# `        
-#         accu = torch.flip(torch.arange(1, self.N+1), [0]).to(self.device).view(1,self.N,1)
-#         accu_reshape = accu.repeat(batch_size,1,self.num_actions)
-
-
-#         delta = torch.cumsum(sigma, dim=1) - accu_reshape*sigma.sum(dim = 1, keepdim = True) / self.N
-
-#         assert delta.shape == (batch_size, self.N, self.num_actions)
-
-#         value = self.vnet(embed).view(batch_size, 1, self.num_actions)`
-
-        nc_quantiles =  value - gbar + accu
+        nc_quantiles =  value + accu - accu.mean(dim=1, keepdim=True)
 
         assert nc_quantiles.shape == (batch_size, self.N, self.num_actions)
 
