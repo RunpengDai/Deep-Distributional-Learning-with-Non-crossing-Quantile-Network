@@ -14,25 +14,25 @@ def run(args):
     with open(args.config) as f:
         config = yaml.load(f, Loader=yaml.SafeLoader)
     config["target_update_interval"] = args.interval
+    config["N"] = args.quantile
+    config["lr"] = args.lr
     # Create environments.
     env = make_pytorch_env(args.env_id)
     test_env = make_pytorch_env(
         args.env_id, episode_life=False, clip_rewards=False)
 
     # Specify the directory to log.
+    log_name = f'{args.model}-{args.quantile}-{args.lr}-{args.interval}-{args.seed}'
+    if args.other is not None:
+        log_name = f'{args.model}-{args.quantile}-{args.lr}-{args.interval}-{args.other}-{args.seed}'
     log_dir = os.path.join(
-        'logs', args.env_id, f'{args.model}-{args.seed}')
+            'logs', args.env_id, log_name)
 
     # Create the agent and run.
     agent = eval(agent_dict[args.model])(
         env=env, test_env=test_env, log_dir=log_dir, seed=args.seed,
         cuda=args.cuda, **config)
-    if args.model == "DEnet":
-        log_dir = os.path.join(
-            'logs', args.env_id, f'{args.model}{args.interval}{args.network}-{args.seed}')
-        agent = eval(agent_dict[args.model])(
-        env=env, test_env=test_env, log_dir=log_dir, seed=args.seed,
-        cuda=args.cuda, network = args.network, **config)
+
     agent.run()
 
 
@@ -46,6 +46,9 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--interval', type=int, default=10000)
     parser.add_argument('--network', type=str, default="old")
+    parser.add_argument('--quantile', type=int, default=200)
+    parser.add_argument('--lr', type=float, default=5e-5)
+    parser.add_argument('--other', type=str, default = None)
     args = parser.parse_args()
     print(args)
     run(args)

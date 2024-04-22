@@ -3,14 +3,13 @@ from matplotlib import pyplot as plt
 import os
 import pickle
 from util import split_list
-#, "DEnet1000new", "DEnet1000old", "DEnet10000old",
-model = ["ncQRDQN", "DEnet1000old", "DEnet1000new", "DEnet10000new", "DEnet10000old"]
-colors = ["darkgreen", "magenta", "limegreen", "blue", "orange"]
-envs = ["YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"] #os.listdir("logs/")
+#, "DEnet1000new", "DEnet1000old", "DEnet10000old",  "DEnet-100", "ncQRDQN-100", "ncQRDQN-100", "DEnet-100", "DEnet-500","ncQRDQN-500",, "DEnet-200-1000"Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/ncQRDQN-200-10000-4
+model = [ "DEnet-200-5e-05-10000", "ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000", "DEnet-200-10000","DEnet-200-5e-05-10000-deepm"] 
+colors = ["darkgreen", "blue", "red", "magenta", "limegreen", "orange", "black", "purple"]
+envs = [ "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4", "MontezumaRevengeNoFrameskip-v4", "VentureNoFrameskip-v4", "PhoenixNoFrameskip-v4", "AlienNoFrameskip-v4", "SeaquestNoFrameskip-v4"] #os.listdir("logs/") "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"
 env_list = split_list(envs, 3)
 height = len(envs) // 3 + 1
-
-fig = plt.figure(figsize=(20, 5*height))
+fig = plt.figure(figsize=(20, 5*height), dpi = 500)
 
 def get_CI(data):
     data = [sub for sub in data if sub]
@@ -24,7 +23,7 @@ def get_CI(data):
 def process_line(env,model):
     base_dir  = "logs/" + env
     data = []
-    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model+"-" in dir]
+    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model+"-" in dir and model+"-1000" and model +"-deepm"not in dir]
     if len(dirs) == 0:
         return None, None
     for dir in dirs:
@@ -42,8 +41,8 @@ for col, env_l in enumerate(env_list):
     for row, env in enumerate(env_l):
         ax = fig.add_subplot(height, 3, row*3+col+1)
         for idx, mode in enumerate(model):
-            mean, std = process_line(env, mode)
             print(env, mode)
+            mean, std = process_line(env, mode)
 
             if mean is None:
                 continue
