@@ -4,12 +4,19 @@ import os
 import pickle
 from util import split_list
 #, "DEnet1000new", "DEnet1000old", "DEnet10000old",  "DEnet-100", "ncQRDQN-100", "ncQRDQN-100", "DEnet-100", "DEnet-500","ncQRDQN-500",, "DEnet-200-1000"Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/ncQRDQN-200-10000-4
-model = [ "DEnet-200-5e-05-10000", "ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000", "DEnet-200-10000","DEnet-200-5e-05-10000-deepm"] 
+model = [ "DEnet-200-5e-05-10000", "ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000", "DEnet-200-5e-05-10000-deepm", "ncQRDQN-200-0.0005-10000"] 
 colors = ["darkgreen", "blue", "red", "magenta", "limegreen", "orange", "black", "purple"]
-envs = [ "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4", "MontezumaRevengeNoFrameskip-v4", "VentureNoFrameskip-v4", "PhoenixNoFrameskip-v4", "AlienNoFrameskip-v4", "SeaquestNoFrameskip-v4"] #os.listdir("logs/") "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"
+envs = [ "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4", "AlienNoFrameskip-v4", "SeaquestNoFrameskip-v4", "HeroNoFrameskip-v4", "MsPacmanNoFrameskip-v4"] #os.listdir("logs/") "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"
 env_list = split_list(envs, 3)
 height = len(envs) // 3 + 1
 fig = plt.figure(figsize=(20, 5*height), dpi = 500)
+window = 5
+
+def moving_average(data, window_size):
+    num = data[-1]
+    arr = np.append(data, (window_size-1)*[num])
+    weights = np.ones(window_size) / window_size
+    return np.convolve(arr, weights, mode='valid').tolist()
 
 def get_CI(data):
     data = [sub for sub in data if sub]
@@ -32,7 +39,7 @@ def process_line(env,model):
         except:
             print(dir)
             continue
-        data.append(summary[1])
+        data.append(moving_average(summary[1], window))
     #print(data)
     mean, std = get_CI(data)
     return mean , std

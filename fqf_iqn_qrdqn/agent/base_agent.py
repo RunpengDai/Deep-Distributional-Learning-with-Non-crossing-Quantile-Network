@@ -262,6 +262,25 @@ class BaseAgent:
               f'return: {mean_return:<5.1f}')
         print('-' * 60)
 
+    def load_checkpoint(self):
+        print("loading breakpoint")
+
+        print(os.path.join(self.model_dir, "final"))
+        self.load_models(os.path.join(self.model_dir, "final"))
+
+        print(os.path.join(self.summary_dir,"return.pkl"))
+        pkl_file = open(os.path.join(self.summary_dir,"return.pkl"), 'rb')
+        summary = pickle.load(pkl_file)
+        self.r = summary[0]
+        self.eval_r = summary[1]
+        print(self.r, self.eval_r)
+        self.episodes = len(self.r) * 100
+        self.steps = len(self.eval_r) * 250000
+        self.epsilon_train.steps = min(self.epsilon_train.num_steps, self.steps+1)
+        print(f"model in {self.steps*4//1000000}M steps, {self.episodes} episodes")
+        pkl_file.close()
+
+            
     def __del__(self):
         self.env.close()
         self.test_env.close()
