@@ -25,6 +25,8 @@ def run(args):
     log_name = f'{args.model}-{args.quantile}-{args.lr}-{args.interval}-{args.seed}'
     if args.other is not None:
         log_name = f'{args.model}-{args.quantile}-{args.lr}-{args.interval}-{args.other}-{args.seed}'
+    if args.specify is not None:
+        log_name = f'{args.specify}-{args.seed}'
     log_dir = os.path.join(
             'logs', args.env_id, log_name)
 # Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/DEnet-200-1e-05-10000-0
@@ -50,6 +52,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=5e-5)
     parser.add_argument('--other', type=str, default = None)
     parser.add_argument('--load', action='store_true')
+    parser.add_argument("--specify", type=str, default=None)
     
     args = parser.parse_args()
     print(args)

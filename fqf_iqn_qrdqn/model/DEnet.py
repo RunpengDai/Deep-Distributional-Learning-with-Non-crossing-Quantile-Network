@@ -53,9 +53,9 @@ class DEnet(nn.Module):
                 nn.ReLU(),
                 linear(512, 1*num_actions))
         else:
-            self.vnet = nn.Sequential(linear(512, 2*num_actions),
+            self.vnet = nn.Sequential(linear(512, 50),
             nn.ReLU(),
-            linear(2*num_actions, 1*num_actions))
+            linear(50, 1*num_actions))
 
 
         self.N = N

@@ -10,7 +10,7 @@ envs = [ "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4", "TennisNoFrames
 env_list = split_list(envs, 3)
 height = len(envs) // 3 + 1
 fig = plt.figure(figsize=(20, 5*height), dpi = 500)
-window = 5
+window = 4
 
 def moving_average(data, window_size):
     num = data[-1]
@@ -18,14 +18,26 @@ def moving_average(data, window_size):
     weights = np.ones(window_size) / window_size
     return np.convolve(arr, weights, mode='valid').tolist()
 
+def calculate_mean_variance(arrays):
+    max_length = max(len(arr) for arr in arrays)
+    padded_arrays = [np.pad(arr, (0, max_length - len(arr)), constant_values=np.nan) for arr in arrays]
+    stacked_arrays = np.vstack(padded_arrays)
+    mean = np.nanmean(stacked_arrays, axis=0)
+    variance = np.nanstd(stacked_arrays, axis=0)
+    return mean, variance
+
+
+
 def get_CI(data):
     data = [sub for sub in data if sub]
-    assert len(data) > 0
-    lenth = min([len(d) for d in data])
-    data  = np.array([d[:lenth] for d in data])
-    mean = np.mean(data, axis=0)
-    std  = np.std(data, axis=0)
+    mean, std = calculate_mean_variance(data)
+    # assert len(data) > 0
+    # lenth = min([len(d) for d in data])
+    # data  = np.array([d[:lenth] for d in data])
+    # mean = np.mean(data, axis=0)
+    # std  = np.std(data, axis=0)
     return mean, std
+
 
 def process_line(env,model):
     base_dir  = "logs/" + env
