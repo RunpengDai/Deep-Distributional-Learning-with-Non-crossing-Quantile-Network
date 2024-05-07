@@ -1,5 +1,6 @@
-pyyaml
+pyaml
 numpy==1.18.1
-torch==1.4.0
+torch==1.8.0
+opencv-python==4.7.0.68
 gym[atari]==0.15.7
-tensorboard==2.1.0
+tensorboard
