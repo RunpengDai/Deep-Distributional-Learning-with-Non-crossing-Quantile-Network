@@ -9,7 +9,7 @@ from fqf_iqn_qrdqn.network import DQNBase, NoisyLinear
 class DEnet(nn.Module):
 
     def __init__(self, num_channels, num_actions, N=200, embedding_dim=7*7*64,
-                 dueling_net=False, noisy_net=False, network = "old"):
+                 dueling_net=False, noisy_net=False, network = "old", star = False):
         super(DEnet, self).__init__()
         linear = NoisyLinear if noisy_net else nn.Linear
         self.network = network
@@ -53,9 +53,7 @@ class DEnet(nn.Module):
                 nn.ReLU(),
                 linear(512, 1*num_actions))
         else:
-            self.vnet = nn.Sequential(linear(512, 50),
-            nn.ReLU(),
-            linear(50, 1*num_actions))
+            self.vnet = linear(512, num_actions)
 
 
         self.N = N
@@ -64,8 +62,12 @@ class DEnet(nn.Module):
         self.embedding_dim = embedding_dim
         self.dueling_net = dueling_net
         self.noisy_net = noisy_net
+        self.star = star
 
     def forward(self, states=None, state_embeddings=None):
+        if states.dim() == 5:
+            states = states.squeeze(-1)
+
         assert states is not None or state_embeddings is not None
         batch_size = states.shape[0] if states is not None\
             else state_embeddings.shape[0]
@@ -92,7 +94,10 @@ class DEnet(nn.Module):
                 - advantages.mean(dim=2, keepdim=True)
 
         # (batch_size, self.N, self.num_actions)
-        sigma = F.elu(quantiles) + 1
+        if self.star:
+            sigma = F.relu(quantiles)
+        else:
+            sigma = F.elu(quantiles) + 1
         assert sigma.shape == (batch_size, self.N, self.num_actions)
 
 

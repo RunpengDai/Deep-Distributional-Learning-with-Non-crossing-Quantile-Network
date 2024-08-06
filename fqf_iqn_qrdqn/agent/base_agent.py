@@ -155,12 +155,12 @@ class BaseAgent:
 
         done = False
         state = self.env.reset()
-#         print(self.exploration)
         while (not done) and episode_steps <= self.max_episode_steps:
 
             if self.steps % self.update_interval == 0:
                 # Reset the noise of noisy net (online net only).
                 self.online_net.reset_noise()
+                
             if self.exploration:
                 action = self.choose_action(state)
 
@@ -171,7 +171,8 @@ class BaseAgent:
                 action = self.exploit(state)
 
             next_state, reward, done, _ = self.env.step(action)
-
+            # next_state, reward, done, _, _ = self.env.step(action)
+            
             self.memory.append(
                 state, action, reward, next_state, done)
 

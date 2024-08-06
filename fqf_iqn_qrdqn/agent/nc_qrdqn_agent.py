@@ -18,7 +18,7 @@ class ncQRDQNAgent(BaseAgent):
                  dueling_net=False, noisy_net=False,
                  log_interval=100, eval_interval=250000, num_eval_steps=125000,
                  max_episode_steps=27000, grad_cliping=None, cuda=True,
-                 seed=0,exploration=False):
+                 seed=0,exploration=False, star = False):
         super(ncQRDQNAgent, self).__init__(
             env, test_env, log_dir, num_steps, batch_size, memory_size,
             gamma, multi_step, update_interval, target_update_interval,

@@ -3,7 +3,7 @@ batch_size: 32
 N: 200
 kappa: 1.0
 lr: 5.e-5
-memory_size: 1000000
+memory_size: 1000000 # 125000 # Original setting is  buffer lenth is every 4M 
 gamma: 0.99
 multi_step: 1
 update_interval: 4

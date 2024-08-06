@@ -2,18 +2,24 @@ import numpy as np
 from matplotlib import pyplot as plt
 import os
 import pickle
+import re
 from util import split_list
-#, "DEnet1000new", "DEnet1000old", "DEnet10000old",  "DEnet-100", "ncQRDQN-100", "ncQRDQN-100", "DEnet-100", "DEnet-500","ncQRDQN-500",, "DEnet-200-1000"Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/ncQRDQN-200-10000-4
-model = [ "DEnet-200-5e-05-10000", "ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000", "DEnet-200-5e-05-10000-deepm", "ncQRDQN-200-0.0005-10000"] 
-colors = ["darkgreen", "blue", "red", "magenta", "limegreen", "orange", "black", "purple"]
-envs = [ "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4", "TennisNoFrameskip-v4", "AlienNoFrameskip-v4", "SeaquestNoFrameskip-v4", "HeroNoFrameskip-v4", "MsPacmanNoFrameskip-v4"] #os.listdir("logs/") "YarsRevengeNoFrameskip-v4", "JamesbondNoFrameskip-v4"
+#, "DEnet1000new", "DEnet1000old", "DEnet10000old",  "DEnet-100", "ncQRDQN-100", "ncQRDQN-100", "DEnet-100", "DEnet-500","ncQRDQN-500",, "DEnet-200-1000"Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/ncQRDQN-200-10000-4, "ncQRDQN-200-5e-05-10000"
+model = ["ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000",  "DEnet-200-5e-05-10000-l*True"] 
+colors = ["blue", "blue", "red"]
+names = ["NC-QR-DQN", "NC-QR-DQN", r"$NQ-Net^*$"]
+envs = [ "YarsRevengeNoFrameskip-v4", "TennisNoFrameskip-v4", "KangarooNoFrameskip-v4","RobotankNoFrameskip-v4", "StarGunnerNoFrameskip-v4",  "JamesbondNoFrameskip-v4",  "HeroNoFrameskip-v4", "DefenderNoFrameskip-v4", "AmidarNoFrameskip-v4",
+"AlienNoFrameskip-v4",
+"SeaquestNoFrameskip-v4"] 
+
+#,  "HeroNoFrameskip-v4","DefenderNoFrameskip-v4", "AmidarNoFrameskip-v4"
 env_list = split_list(envs, 3)
-height = len(envs) // 3 + 1
+height = 4#len(envs) // 3 + 1
 fig = plt.figure(figsize=(20, 5*height), dpi = 500)
-window = 4
+window = 5
 
 def moving_average(data, window_size):
-    num = data[-1]
+    num = np.mean(data[-window_size:])
     arr = np.append(data, (window_size-1)*[num])
     weights = np.ones(window_size) / window_size
     return np.convolve(arr, weights, mode='valid').tolist()
@@ -42,7 +48,8 @@ def get_CI(data):
 def process_line(env,model):
     base_dir  = "logs/" + env
     data = []
-    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model+"-" in dir and model+"-1000" and model +"-deepm"not in dir]
+    dirs = [base_dir + "/" + dir for dir in os.listdir(base_dir) if model in dir and len(dir)==(len(model)+2)][:3] # find all the dir with model-seed  and int(dir[-1])!=0
+    
     if len(dirs) == 0:
         return None, None
     for dir in dirs:
@@ -52,13 +59,18 @@ def process_line(env,model):
             print(dir)
             continue
         data.append(moving_average(summary[1], window))
-    #print(data)
     mean, std = get_CI(data)
     return mean , std
     
+
+# To store handles and labels for the legend
+handles = []
+labels = []
 for col, env_l in enumerate(env_list):
     for row, env in enumerate(env_l):
         ax = fig.add_subplot(height, 3, row*3+col+1)
+        name = re.search(r"(.*?)(No)", env).group(1).strip()
+
         for idx, mode in enumerate(model):
             print(env, mode)
             mean, std = process_line(env, mode)
@@ -66,11 +78,18 @@ for col, env_l in enumerate(env_list):
             if mean is None:
                 continue
             x = np.arange(len(mean))
-            ax.plot(x, mean, color = colors[idx], markerfacecolor='none', markersize =5,marker = "o", label = mode)
+            line, =ax.plot(x, mean, color = colors[idx], markerfacecolor='none', markersize =5, label = names[model.index(mode)])
             ax.fill_between(x, mean - std, mean + std, color = colors[idx], alpha=0.2)
-        ax.set_title(env)
+            # fig.legend()
+            if row == 0 and col == 0:  # Collect handles and labels only from the first subplot
+                handles.append(line)
+                labels.append(names[model.index(mode)])
+        ax.set_title(name, fontsize=15)
 
-fig.legend()
+# fig.legend(handles, labels, loc=' center')
+fig.legend(handles, labels, loc='lower center',  fontsize=14, ncol=2)
+
+# 
 fig.savefig("results.png")
 
 

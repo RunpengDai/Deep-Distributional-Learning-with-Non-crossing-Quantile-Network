@@ -15,7 +15,7 @@ class MultiStepBuff:
             }
 
     def append(self, state, action, reward):
-        self.memory["state"].append(state)
+        self.memory["state"].append(state) 
         self.memory["action"].append(action)
         self.memory["reward"].append(reward)
 
@@ -103,6 +103,7 @@ class LazyMemory(dict):
 
         for i, index in enumerate(indices):
             _index = np.mod(index+bias, self.capacity)
+            # import pdb; pdb.set_trace()
             states[i, ...] = self['state'][_index]
             next_states[i, ...] = self['next_state'][_index]
 
