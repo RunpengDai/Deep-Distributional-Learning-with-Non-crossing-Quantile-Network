@@ -2,10 +2,9 @@ logs/
 *.zip
 .ipynb_checkpoints/
 __pycache__
-run/
-V100.py
-*png
-a100.py
-vrun/
 *.out
 *.log
+*.ipynb
+Dockerfile 
+ROMS/
+HC ROMS/

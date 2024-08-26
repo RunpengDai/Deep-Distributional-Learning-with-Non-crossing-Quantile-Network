@@ -4,17 +4,13 @@ import os
 import pickle
 import re
 from util import split_list
-#, "DEnet1000new", "DEnet1000old", "DEnet10000old",  "DEnet-100", "ncQRDQN-100", "ncQRDQN-100", "DEnet-100", "DEnet-500","ncQRDQN-500",, "DEnet-200-1000"Dist-DEnet-ncqr/logs/YarsRevengeNoFrameskip-v4/ncQRDQN-200-10000-4, "ncQRDQN-200-5e-05-10000"
-model = ["ncQRDQN-200-5e-05-10000", "ncQRDQN-200-10000",  "DEnet-200-5e-05-10000-l*True"] 
+model = ["ncQRDQN-200-5e-05-10000",  "DEnet-200-5e-05-10000-l*True"] 
 colors = ["blue", "blue", "red"]
-names = ["NC-QR-DQN", "NC-QR-DQN", r"$NQ-Net^*$"]
-envs = [ "YarsRevengeNoFrameskip-v4", "TennisNoFrameskip-v4", "KangarooNoFrameskip-v4","RobotankNoFrameskip-v4", "StarGunnerNoFrameskip-v4",  "JamesbondNoFrameskip-v4",  "HeroNoFrameskip-v4", "DefenderNoFrameskip-v4", "AmidarNoFrameskip-v4",
-"AlienNoFrameskip-v4",
-"SeaquestNoFrameskip-v4"] 
+names = ["NC-QR-DQN", r"$NQ-Net^*$"]
+envs = ["TennisNoFrameskip-v4", "KangarooNoFrameskip-v4", "JamesbondNoFrameskip-v4"] 
 
-#,  "HeroNoFrameskip-v4","DefenderNoFrameskip-v4", "AmidarNoFrameskip-v4"
 env_list = split_list(envs, 3)
-height = 4#len(envs) // 3 + 1
+height = len(envs) // 3 + 1
 fig = plt.figure(figsize=(20, 5*height), dpi = 500)
 window = 5
 
@@ -91,33 +87,3 @@ fig.legend(handles, labels, loc='lower center',  fontsize=14, ncol=2)
 
 # 
 fig.savefig("results.png")
-
-
-# for num,l in enumerate(["l5", "l10", "l15"]):
-#     dirs = ["results/"+dir for dir in os.listdir("results/") if l in dir]
-#     if len(dirs) == 0:
-#         continue
-#     ax = fig.add_subplot(1,3,num+1)
-#     false,true = [],[]
-#     for dir in dirs:
-#         with open(dir,'rb') as f:
-#             b = pickle.load(f)
-#         false.append(b) if "False" in dir else true.append(b)
-#     false,true = np.array(false).reshape(len(false), 6), np.array(true).reshape(len(true), 6)
-#     false = false[false[:,0].argsort()]
-#     true = true[true[:,0].argsort()]
-
-#     xt, xf = true[:,0], false[:,0]
-#     ax.plot(xf,false[:,1],color='darkred', markerfacecolor='none', marker='o', markersize =5,label = "Mean DR")
-#     ax.fill_between(xf, false[:,1] - false[:,3], false[:,1] + false[:,3], color='darkred', alpha=0.2)
-    
-#     ax.plot(xf,false[:,2],color='darkgreen', markerfacecolor='none', marker='o', markersize =5,label = "Mean PLG")
-#     ax.fill_between(xf, false[:,2] - false[:,4], false[:,2] + false[:,4], color='darkgreen', alpha=0.2)
-
-#     ax.plot(xt,true[:,1],color='magenta', markerfacecolor='none', marker='o', markersize =5,label = "Deep DR")
-#     ax.fill_between(xt, true[:,1] - true[:,3], true[:,1] + true[:,3], color='magenta', alpha=0.2)
-    
-#     ax.plot(xt,true[:,2],color='limegreen', markerfacecolor='none', marker='o', markersize =5,label = "Deep PLG")
-#     ax.fill_between(xt, true[:,2] - true[:,4], true[:,2] + true[:,4], color='limegreen', alpha=0.2)
-# fig.legend()
-# fig.savefig("results.png")

@@ -1,6 +1,9 @@
 pyaml
 numpy==1.18.1
-torch==1.8.0
-opencv-python==4.7.0.68
+torch
+opencv-python==4.5.3.56
 gym[atari]==0.15.7
 tensorboard
+tqdm
+matplotlib
+dnn
