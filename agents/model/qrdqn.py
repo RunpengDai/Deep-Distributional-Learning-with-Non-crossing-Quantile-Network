@@ -1,6 +1,6 @@
 from torch import nn
 
-from fqf_iqn_qrdqn.network import DQNBase, NoisyLinear
+from agents.network import DQNBase, NoisyLinear
 
 
 class QRDQN(nn.Module):

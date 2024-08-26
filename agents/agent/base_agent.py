@@ -3,8 +3,8 @@ import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
 import time
-from fqf_iqn_qrdqn.memory import LazyMultiStepMemory
-from fqf_iqn_qrdqn.utils import RunningMeanStats, LinearAnneaer
+from agents.memory import LazyMultiStepMemory
+from agents.utils import RunningMeanStats, LinearAnneaer
 import pickle
 
 

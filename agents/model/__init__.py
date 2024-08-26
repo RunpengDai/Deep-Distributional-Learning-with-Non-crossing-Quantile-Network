@@ -1,3 +1,3 @@
-from fqf_iqn_qrdqn.model.qrdqn import QRDQN
-from fqf_iqn_qrdqn.model.nc_qrdqn import ncQRDQN
-from fqf_iqn_qrdqn.model.DEnet import DEnet
+from agents.model.qrdqn import QRDQN
+from agents.model.nc_qrdqn import ncQRDQN
+from agents.model.DEnet import DEnet

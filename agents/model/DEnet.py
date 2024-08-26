@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 import torch.nn.functional as F
-from fqf_iqn_qrdqn.network import DQNBase, NoisyLinear
+from agents.network import DQNBase, NoisyLinear
 
 class DEnet(nn.Module):
 
